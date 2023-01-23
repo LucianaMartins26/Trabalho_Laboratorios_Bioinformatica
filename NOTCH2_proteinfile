@@ -1,0 +1,503 @@
+LOCUS       CAH70182                2471 aa            linear   PRI 13-JAN-2009
+DEFINITION  Notch homolog 2 (Drosophila) [Homo sapiens].
+ACCESSION   CAH70182
+VERSION     CAH70182.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 2471)
+  AUTHORS   Hopkins,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JAN-2009) Wellcome Trust Sanger Institute, Hinxton,
+            Cambridgeshire, CB10 1SA, UK. E-mail enquiries: vega@sanger.ac.uk
+            Clone requests: Geneservice (http://www.geneservice.co.uk/) and
+            BACPAC Resources (http://bacpac.chori.org/)
+COMMENT     -------------- Genome Center
+            Center: Wellcome Trust Sanger Institute
+            Center code: SC
+            Web site: http://www.sanger.ac.uk
+            Contact: vega@sanger.ac.uk
+            --------------
+            This sequence was finished as follows unless otherwise noted: all
+            regions were either double-stranded or sequenced with an alternate
+            chemistry or covered by high quality data (i.e., phred quality >=
+            30); an attempt was made to resolve all sequencing problems, such
+            as compressions and repeats; all regions were covered by at least
+            one subclone; and the assembly was confirmed by restriction digest,
+            except on the rare occasion of the clone being a YAC.
+            The following abbreviations are used to associate primary accession
+            numbers given in the feature table with their source databases:
+            Em:, EMBL; Sw:, SWISSPROT; Tr:, TREMBL; Wp:, WORMPEP; Information
+            on the WORMPEP database can be found at
+            http://www.sanger.ac.uk/Projects/C_elegans/wormpep
+            This sequence was generated from part of bacterial clone contigs of
+            human chromosome 1, constructed by the Sanger Centre Chromosome 1
+            Mapping Group.  Further information can be found at
+            http://www.sanger.ac.uk/HGP/Chr1
+            IMPORTANT: This sequence is not the entire insert of clone
+            RP11-114O18. It may be shorter because we sequence overlapping
+            sections only once, except for a short overlap.
+            During sequence assembly data is compared from overlapping clones.
+            Where differences are found these are annotated as variations
+            together with a note of the overlapping clone name. Note that the
+            variation annotation may not be found in the sequence submission
+            corresponding to the overlapping clone, as we submit sequences with
+            only a small overlap.
+            The true right end of clone RP11-323K8 is at 2000 in this sequence.
+            The true right end of clone RP11-114O18 is at 107056 in this
+            sequence.
+            RP11-114O18 is from the library RPCI-11.1 constructed by the group
+            of Pieter de Jong. For further details see
+            http://bacpac.chori.org/
+            VECTOR: pBACe3.6.
+FEATURES             Location/Qualifiers
+     source          1..2471
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+                     /chromosome="1"
+                     /clone="RP11-114O18"
+                     /clone_lib="RPCI-11.1"
+     Protein         1..2471
+                     /product="Notch homolog 2 (Drosophila)"
+     Region          182..218
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(182,185,200)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          260..296
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(260,263,277)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          298..335
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(298,301,317)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          415..454
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(415,418,435)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          456..492
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(456,459,473)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          495..530
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Region          532..568
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(532,535,549)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          570..604
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(570,573,586)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          608..643
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Region          645..679
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(645,648,661)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          682..717
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(682,685,699)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          757..793
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(757,760,774)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          795..831
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(795,798,812)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          873..909
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(873,876,890)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          911..947
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(911,914,928)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          949..985
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(949,952,966)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          987..1022
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(987,990,1004)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          1026..1061
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Region          1117..1147
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Region          1151..1185
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Region          1188..1223
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Region          1225..1262
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(1225,1228,1243)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          1264..1302
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Site            order(1264,1267,1283)
+                     /site_type="other"
+                     /note="Ca2+ binding site [ion binding]"
+                     /db_xref="CDD:238011"
+     Region          <1312..1343
+                     /region_name="EGF_CA"
+                     /note="Calcium-binding EGF-like domain, present in a large
+                     number of membrane-bound and extracellular (mostly animal)
+                     proteins. Many of these proteins require calcium for their
+                     biological function and calcium-binding sites have been
+                     found to be located at the...; cd00054"
+                     /db_xref="CDD:238011"
+     Region          1422..1456
+                     /region_name="Notch"
+                     /note="LNR domain; pfam00066"
+                     /db_xref="CDD:425447"
+     Region          1463..1497
+                     /region_name="Notch"
+                     /note="LNR domain; pfam00066"
+                     /db_xref="CDD:425447"
+     Region          1501..1534
+                     /region_name="Notch"
+                     /note="LNR domain; pfam00066"
+                     /db_xref="CDD:425447"
+     Region          1539..1594
+                     /region_name="NOD"
+                     /note="NOTCH protein; pfam06816"
+                     /db_xref="CDD:429134"
+     Region          1618..1673
+                     /region_name="NODP"
+                     /note="NOTCH protein; pfam07684"
+                     /db_xref="CDD:429594"
+     Region          1659..1740
+                     /region_name="JMTM_Notch2"
+                     /note="juxtamembrane and transmembrane (JMTM) domain found
+                     in neurogenic locus notch homolog protein 2 (Notch2) and
+                     similar proteins; cd21703"
+                     /db_xref="CDD:411986"
+     Site            order(1661..1663,1666..1668,1682..1683,1685,1687..1703)
+                     /site_type="other"
+                     /note="putative polypeptide substrate binding site
+                     [polypeptide binding]"
+                     /db_xref="CDD:411986"
+     Region          <1819..1931
+                     /region_name="ANKYR"
+                     /note="Ankyrin repeat [Signal transduction mechanisms];
+                     COG0666"
+                     /db_xref="CDD:223738"
+     Region          1827..1874
+                     /region_name="ANK repeat"
+                     /note="ANK repeat [structural motif]"
+                     /db_xref="CDD:293786"
+     Region          1877..1907
+                     /region_name="ANK repeat"
+                     /note="ANK repeat [structural motif]"
+                     /db_xref="CDD:293786"
+     Region          1879..2066
+                     /region_name="ANKYR"
+                     /note="Ankyrin repeat [Signal transduction mechanisms];
+                     COG0666"
+                     /db_xref="CDD:223738"
+     Site            order(1943,1945,1949..1950,1953..1955,1957..1958,1962,1965,
+                     1974,1976,1978,1982..1983,1986..1988,1990..1991,1995,1998,
+                     2007,2009,2011,2015..2016,2019..2021,2023..2024,2028,2031,
+                     2040)
+                     /site_type="other"
+                     /note="oligomer interface [polypeptide binding]"
+                     /db_xref="CDD:293786"
+     Region          1943..1974
+                     /region_name="ANK repeat"
+                     /note="ANK repeat [structural motif]"
+                     /db_xref="CDD:293786"
+     Region          1948..2040
+                     /region_name="Ank_2"
+                     /note="Ankyrin repeats (3 copies); pfam12796"
+                     /db_xref="CDD:432791"
+     Region          1976..2007
+                     /region_name="ANK repeat"
+                     /note="ANK repeat [structural motif]"
+                     /db_xref="CDD:293786"
+     Region          2009..2040
+                     /region_name="ANK repeat"
+                     /note="ANK repeat [structural motif]"
+                     /db_xref="CDD:293786"
+     Region          <2068..2422
+                     /region_name="PHA03247"
+                     /note="large tegument protein UL36; Provisional"
+                     /db_xref="CDD:223021"
+     CDS             1..2471
+                     /gene="NOTCH2"
+                     /locus_tag="RP5-1042I8.5-001"
+                     /standard_name="OTTHUMP00000014035"
+                     /coded_by="join(complement(AL596222.13:35287..35359),
+                     complement(AL512503.14:103480..103561),
+                     complement(AL512503.14:78903..79162),
+                     complement(AL512503.14:70571..70906),
+                     complement(AL512503.14:60534..60656),
+                     complement(AL512503.14:43085..43318),
+                     complement(AL512503.14:41651..41806),
+                     complement(AL512503.14:41007..41195),
+                     complement(AL512503.14:39950..40063),
+                     complement(AL512503.14:39027..39140),
+                     complement(AL512503.14:37148..37381),
+                     complement(AL512503.14:32966..33076),
+                     complement(AL512503.14:28614..28806),
+                     complement(AL512503.14:27117..27262),
+                     complement(AL512503.14:24298..24411),
+                     complement(AL512503.14:22581..22700),
+                     complement(AL512503.14:21988..22140),
+                     complement(AL512503.14:15100..15328),
+                     complement(AL512503.14:14129..14330),
+                     complement(AL512503.14:11431..11584),
+                     complement(AL512503.14:10856..11040),
+                     complement(AL512503.14:9046..9178),
+                     complement(AL512503.14:2550..2786),
+                     complement(AL359752.11:136028..136140),
+                     complement(AL359752.11:134834..135339),
+                     complement(AL359752.11:133166..133513),
+                     complement(AL359752.11:132165..132307),
+                     complement(AL359752.11:131765..131975),
+                     complement(AL359752.11:131242..131338),
+                     complement(AL359752.11:129758..129926),
+                     complement(AL359752.11:128841..129142),
+                     complement(AL359752.11:127935..128082),
+                     complement(AL359752.11:127194..127291),
+                     complement(AL359752.11:124835..126223))"
+                     /note="match: proteins: Sw:O35516 Sw:Q04721 Sw:Q9QW30
+                     Tr:Q96793 Tr:Q96794 Tr:Q96795 Tr:Q96JU8 Tr:Q9UFD5"
+                     /db_xref="GOA:Q04721"
+                     /db_xref="HGNC:HGNC:7882"
+                     /db_xref="InterPro:IPR000152"
+                     /db_xref="InterPro:IPR000742"
+                     /db_xref="InterPro:IPR000800"
+                     /db_xref="InterPro:IPR001881"
+                     /db_xref="InterPro:IPR002110"
+                     /db_xref="InterPro:IPR006209"
+                     /db_xref="InterPro:IPR006210"
+                     /db_xref="InterPro:IPR008297"
+                     /db_xref="InterPro:IPR010660"
+                     /db_xref="InterPro:IPR011656"
+                     /db_xref="InterPro:IPR013032"
+                     /db_xref="InterPro:IPR013091"
+                     /db_xref="InterPro:IPR018097"
+                     /db_xref="InterPro:IPR020683"
+                     /db_xref="InterPro:IPR022336"
+                     /db_xref="PDB:2OO4"
+                     /db_xref="UniProtKB/Swiss-Prot:Q04721"
+ORIGIN
+        1 mpalrpallw allalwlcca apahalqcrd gyepcvnegm cvtyhngtgy ckcpegflge
+       61 ycqhrdpcek nrcqnggtcv aqamlgkatc rcasgftged cqystshpcf vsrpclnggt
+      121 chmlsrdtye ctcqvgftgk ecqwtdacls hpcangstct tvanqfsckc ltgftgqkce
+      181 tdvnecdipg hcqhggtcln lpgsyqcqcp qgftgqycds lyvpcapspc vnggtcrqtg
+      241 dftfecnclp gfegstcern iddcpnhrcq nggvcvdgvn tyncrcppqw tgqfctedvd
+      301 ecllqpnacq nggtcanrng gygcvcvngw sgddcsenid dcafasctpg stcidrvasf
+      361 scmcpegkag llchlddaci snpchkgalc dtnplngqyi ctcpqgykga dctedvdeca
+      421 mansnpceha gkcvntdgaf hceclkgyag prcemdinec hsdpcqndat cldkiggftc
+      481 lcmpgfkgvh celeinecqs npcvnngqcv dkvnrfqclc ppgftgpvcq ididdcsstp
+      541 clngakcidh pngyecqcat gftgvlceen idncdpdpch hgqcqdgids ytcicnpgym
+      601 gaicsdqide cysspclndg rcidlvngyq cncqpgtsgv nceinfddca snpcihgicm
+      661 dginryscvc spgftgqrcn ididecasnp crkgatcing vngfrcicpe gphhpscysq
+      721 vneclsnpci hgnctgglsg ykclcdagwv gincevdkne clsnpcqngg tcdnlvngyr
+      781 ctckkgfkgy ncqvnideca snpclnqgtc fddisgytch cvlpytgknc qtvlapcspn
+      841 pcenaavcke spnfesytcl capgwqgqrc tididecisk pcmnhglchn tqgsymcecp
+      901 pgfsgmdcee diddclanpc qnggscmdgv ntfsclclpg ftgdkcqtdm neclsepckn
+      961 ggtcsdyvns ytckcqagfd gvhcennine ctesscfngg tcvdginsfs clcpvgftgs
+     1021 fclheinecs shpclnegtc vdglgtyrcs cplgytgknc qtlvnlcsrs pcknkgtcvq
+     1081 kkaesqclcp sgwagaycdv pnvscdiaas rrgvlvehlc qhsgvcinag nthycqcplg
+     1141 ytgsyceeql decasnpcqh gatcsdfigg yrcecvpgyq gvnceyevde cqnqpcqngg
+     1201 tcidlvnhfk cscppgtrgl lceeniddca rgphclnggq cmdriggysc rclpgfager
+     1261 cegdinecls npcssegsld ciqltndylc vcrsaftgrh cetfvdvcpq mpclnggtca
+     1321 vasnmpdgfi crcppgfsga rcqsscgqvk crkgeqcvht asgprcfcps prdcesgcas
+     1381 spcqhggsch pqrqppyysc qcappfsgsr celytappst ppatclsqyc adkardgvcd
+     1441 eacnshacqw dggdcsltme npwancsspl pcwdyinnqc delcntvecl fdnfecqgns
+     1501 ktckydkyca dhfkdnhcdq gcnseecgwd gldcaadqpe nlaegtlviv vlmppeqllq
+     1561 darsflralg tllhtnlrik rdsqgelmvy pyygeksaam kkqrmtrrsl pgeqeqevag
+     1621 skvfleidnr qcvqdsdhcf kntdaaaall ashaiqgtls yplvsvvses ltpertqlly
+     1681 llavavviil fiillgvima krkrkhgslw lpegftlrrd asnhkrrepv gqdavglknl
+     1741 svqvseanli gtgtsehwvd degpqpkkvk aedeallsee ddpidrrpwt qqhleaadir
+     1801 rtpslaltpp qaeqevdvld vnvrgpdgct plmlaslrgg ssdlsdeded aedssaniit
+     1861 dlvyqgaslq aqtdrtgema lhlaarysra daakrlldag adanaqdnmg rcplhaavaa
+     1921 daqgvfqili rnrvtdldar mndgttplil aarlavegmv aelincqadv navddhgksa
+     1981 lhwaaavnnv eatllllkng anrdmqdnke etplflaare gsyeaakill dhfanrditd
+     2041 hmdrlprdva rdrmhhdivr lldeynvtps ppgtvltsal spvicgpnrs flslkhtpmg
+     2101 kksrrpsaks tmptslpnla keakdakgsr rkkslsekvq lsessvtlsp vdslesphty
+     2161 vsdttsspmi tspgilqasp npmlataapp apvhaqhals fsnlhemqpl ahgastvlps
+     2221 vsqllshhhi vspgsgsags lsrlhpvpvp adwmnrmevn etqynemfgm vlapaegthp
+     2281 giapqsrppe gkhittprep lppivtfqli pkgsiaqpag apqpqstcpp avagplptmy
+     2341 qipemarlps vafptammpq qdgqvaqtil payhpfpasv gkyptppsqh syassnaaer
+     2401 tpshsghlqg ehpyltpspe spdqwssssp hsasdwsdvt tsptpggagg gqrgpgthms
+     2461 epphnnmqvy a
+//
