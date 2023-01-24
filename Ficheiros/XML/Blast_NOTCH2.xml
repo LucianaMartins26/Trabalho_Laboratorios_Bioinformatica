@@ -1,0 +1,1651 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_59983</BlastOutput_query-ID>
+  <BlastOutput_query-def>X80115.1 H.sapiens NOTCH 2 gene</BlastOutput_query-def>
+  <BlastOutput_query-len>622</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_59983</Iteration_query-ID>
+  <Iteration_query-def>X80115.1 H.sapiens NOTCH 2 gene</Iteration_query-def>
+  <Iteration_query-len>622</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1601833233|gb|AC278623.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone VMRC53-156D10, complete sequence</Hit_def>
+  <Hit_accession>AC278623</Hit_accession>
+  <Hit_len>175777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1122.98</Hsp_bit-score>
+      <Hsp_score>1244</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>106333</Hsp_hit-from>
+      <Hsp_hit-to>106954</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>622</Hsp_identity>
+      <Hsp_positive>622</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1601832944|gb|AC278334.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone VMRC62-166D15, complete sequence</Hit_def>
+  <Hit_accession>AC278334</Hit_accession>
+  <Hit_len>165771</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1122.98</Hsp_bit-score>
+      <Hsp_score>1244</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>86195</Hsp_hit-from>
+      <Hsp_hit-to>86816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>622</Hsp_identity>
+      <Hsp_positive>622</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|763114|emb|X80115.1|</Hit_id>
+  <Hit_def>H.sapiens NOTCH 2 gene</Hit_def>
+  <Hit_accession>X80115</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1122.98</Hsp_bit-score>
+      <Hsp_score>1244</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>622</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>622</Hsp_identity>
+      <Hsp_positive>622</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1601833395|gb|AC278785.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone VMRC66-236N07, complete sequence</Hit_def>
+  <Hit_accession>AC278785</Hit_accession>
+  <Hit_len>160913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1118.47</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>86547</Hsp_hit-from>
+      <Hsp_hit-to>85926</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>621</Hsp_identity>
+      <Hsp_positive>621</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1601833017|gb|AC278407.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone VMRC66-033P09, complete sequence</Hit_def>
+  <Hit_accession>AC278407</Hit_accession>
+  <Hit_len>140910</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1118.47</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>113182</Hsp_hit-from>
+      <Hsp_hit-to>113803</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>621</Hsp_identity>
+      <Hsp_positive>621</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2296125239|ref|NG_008163.2|</Hit_id>
+  <Hit_def>Homo sapiens notch receptor 2 (NOTCH2), RefSeqGene on chromosome 1</Hit_def>
+  <Hit_accession>NG_008163</Hit_accession>
+  <Hit_len>165110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1118.47</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>138874</Hsp_hit-from>
+      <Hsp_hit-to>139495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>621</Hsp_identity>
+      <Hsp_positive>621</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|14596372|emb|AL512503.14|</Hit_id>
+  <Hit_def>Human DNA sequence from clone RP11-323K8 on chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>AL512503</Hit_accession>
+  <Hit_len>109612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1118.47</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>9362</Hsp_hit-from>
+      <Hsp_hit-to>8741</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>621</Hsp_identity>
+      <Hsp_positive>621</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1601833426|gb|AC278816.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone VMRC64-514A21, complete sequence</Hit_def>
+  <Hit_accession>AC278816</Hit_accession>
+  <Hit_len>160877</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1113.96</Hsp_bit-score>
+      <Hsp_score>1234</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>86536</Hsp_hit-from>
+      <Hsp_hit-to>85915</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>620</Hsp_identity>
+      <Hsp_positive>620</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1601833340|gb|AC278730.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone VMRC66-338G20, complete sequence</Hit_def>
+  <Hit_accession>AC278730</Hit_accession>
+  <Hit_len>139411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1113.96</Hsp_bit-score>
+      <Hsp_score>1234</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>74353</Hsp_hit-from>
+      <Hsp_hit-to>74974</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>620</Hsp_identity>
+      <Hsp_positive>620</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1601832990|gb|AC278380.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone VMRC53-174C22, complete sequence</Hit_def>
+  <Hit_accession>AC278380</Hit_accession>
+  <Hit_len>172299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1113.96</Hsp_bit-score>
+      <Hsp_score>1234</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>85770</Hsp_hit-from>
+      <Hsp_hit-to>86391</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>620</Hsp_identity>
+      <Hsp_positive>620</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1601832873|gb|AC278263.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone VMRC53-159D19, complete sequence</Hit_def>
+  <Hit_accession>AC278263</Hit_accession>
+  <Hit_len>193424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1113.96</Hsp_bit-score>
+      <Hsp_score>1234</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>152372</Hsp_hit-from>
+      <Hsp_hit-to>152993</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>620</Hsp_identity>
+      <Hsp_positive>620</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1601832866|gb|AC278256.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 1 clone VMRC64-391C14, complete sequence</Hit_def>
+  <Hit_accession>AC278256</Hit_accession>
+  <Hit_len>167770</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1113.96</Hsp_bit-score>
+      <Hsp_score>1234</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>26560</Hsp_hit-from>
+      <Hsp_hit-to>25939</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>620</Hsp_identity>
+      <Hsp_positive>620</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1080083579|gb|AC275520.1|</Hit_id>
+  <Hit_def>Homo sapiens BAC clone VMRC66-465F22 from chromosome unknown, complete sequence</Hit_def>
+  <Hit_accession>AC275520</Hit_accession>
+  <Hit_len>154646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1113.96</Hsp_bit-score>
+      <Hsp_score>1234</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>21537</Hsp_hit-from>
+      <Hsp_hit-to>22158</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>620</Hsp_identity>
+      <Hsp_positive>620</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1040460995|gb|AC275246.1|</Hit_id>
+  <Hit_def>Pan troglodytes chromosome 1 clone CH251-649E9, complete sequence</Hit_def>
+  <Hit_accession>AC275246</Hit_accession>
+  <Hit_len>196904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1086.91</Hsp_bit-score>
+      <Hsp_score>1204</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>84734</Hsp_hit-from>
+      <Hsp_hit-to>85355</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>614</Hsp_identity>
+      <Hsp_positive>614</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGTAGAGAGTGTGATGGTTCCAGAGAAAACATGCAAAAGCTAAGTGAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTGCATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATAAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||| | |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1040460982|gb|AC275233.1|</Hit_id>
+  <Hit_def>Pan troglodytes chromosome 1 clone CH251-176N17, complete sequence</Hit_def>
+  <Hit_accession>AC275233</Hit_accession>
+  <Hit_len>177261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1086.91</Hsp_bit-score>
+      <Hsp_score>1204</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>113787</Hsp_hit-from>
+      <Hsp_hit-to>114408</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>614</Hsp_identity>
+      <Hsp_positive>614</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGTAGAGAGTGTGATGGTTCCAGAGAAAACATGCAAAAGCTAAGTGAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTGCATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATAAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||| | |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1040460978|gb|AC275229.1|</Hit_id>
+  <Hit_def>Pan troglodytes chromosome 1 clone CH251-654M14, complete sequence</Hit_def>
+  <Hit_accession>AC275229</Hit_accession>
+  <Hit_len>169939</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1086.91</Hsp_bit-score>
+      <Hsp_score>1204</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>131058</Hsp_hit-from>
+      <Hsp_hit-to>130437</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>614</Hsp_identity>
+      <Hsp_positive>614</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGTAGAGAGTGTGATGGTTCCAGAGAAAACATGCAAAAGCTAAGTGAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTGCATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATAAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||| | |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1040460997|gb|AC275248.1|</Hit_id>
+  <Hit_def>Gorilla gorilla chromosome 1 clone CH277-544H4, complete sequence</Hit_def>
+  <Hit_accession>AC275248</Hit_accession>
+  <Hit_len>168502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1082.41</Hsp_bit-score>
+      <Hsp_score>1199</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>27404</Hsp_hit-from>
+      <Hsp_hit-to>26783</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>613</Hsp_identity>
+      <Hsp_positive>613</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>622</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAGTGGGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATCAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGTAAGACTAGCTTCATTCCAAGCATTTAGTTCTGCATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTCTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATAAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1889602511|ref|NM_001200001.2|</Hit_id>
+  <Hit_def>Homo sapiens notch receptor 2 (NOTCH2), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_001200001</Hit_accession>
+  <Hit_len>4270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>794.769</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>4216</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.36059</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>2957</Hsp_hit-from>
+      <Hsp_hit-to>3039</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CCAGGCTATCAG-GGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGA</Hsp_qseq>
+      <Hsp_hseq>CCAGGCT-TCAGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| ||| |  |||||||| | ||  | ||||| ||||      | || ||||||||||||||  ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|47938095|gb|BC071562.1|</Hit_id>
+  <Hit_def>Homo sapiens Notch homolog 2 (Drosophila), mRNA (cDNA clone MGC:87008 IMAGE:4822955), complete cds</Hit_def>
+  <Hit_accession>BC071562</Hit_accession>
+  <Hit_len>4275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>794.769</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>3767</Hsp_hit-from>
+      <Hsp_hit-to>4206</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.36059</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>2947</Hsp_hit-from>
+      <Hsp_hit-to>3029</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CCAGGCTATCAG-GGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGA</Hsp_qseq>
+      <Hsp_hseq>CCAGGCT-TCAGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| ||| |  |||||||| | ||  | ||||| ||||      | || ||||||||||||||  ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|122892633|gb|DQ976710.1|</Hit_id>
+  <Hit_def>Hylobates klossii NOTCH2 (NOTCH2) gene, partial cds</Hit_def>
+  <Hit_accession>DQ976710</Hit_accession>
+  <Hit_len>13560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.05</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>1.30294e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>7466</Hsp_hit-from>
+      <Hsp_hit-to>7776</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>CTGCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCA</Hsp_qseq>
+      <Hsp_hseq>CTGCAGATTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGCGTGATGGTTCCAGAGAAGACATACAAAAGCTAAGTGGGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTGGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTATCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||| |  |||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|121484180|gb|DQ977306.1|</Hit_id>
+  <Hit_def>Pan paniscus NOTCH2 gene, partial sequence</Hit_def>
+  <Hit_accession>DQ977306</Hit_accession>
+  <Hit_len>15845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.654</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>7.2127e-126</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>9024</Hsp_hit-from>
+      <Hsp_hit-to>9317</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>GCAGGTTTTCTGTCCCTGCATAGAATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCT</Hsp_qseq>
+      <Hsp_hseq>GCAGGTTTTCTGTCCCNNCATAGAANGNNTAGTAGAGAGTGTGATGGTTCCNNAGAAAACATGCAANNNNTAAGTGAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCATGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTNAACCATTTCAAGTGCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||  ||||||| |  ||| ||||||||||||||||||  ||||||||| |||    ||| | |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2261262892|emb|OX090959.1|</Hit_id>
+  <Hit_def>Heterocephalus glaber genome assembly, chromosome: 19</Hit_def>
+  <Hit_accession>OX090959</Hit_accession>
+  <Hit_len>60928233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.929</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>8.79463e-106</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>7721012</Hsp_hit-from>
+      <Hsp_hit-to>7721590</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>464</Hsp_identity>
+      <Hsp_positive>464</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>609</Hsp_align-len>
+      <Hsp_qseq>ATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGT--AATGGTCCAATATTTCTTGTCCTTTTT-GTTTCCTCATG-----GCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAA--AGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAG---TTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>ATGATGAGCAGAGAATGGG-TGATTCCAGAGGAGCC-TGCAAGAGCTGAGGG-GGAGGGGGCAGG--GTCATAGCAACATCCCAGATCTCACTTGACCATATGTG--GTTTTCAGTCGACTCAATCAGTATTCCTTGTCCTTTTTTGCTTCCTCTTGCTTTGGCAGTGTGTTCCGGGATATCAGGGTGTCAACTGTGAATATGAGGTAGATGAGTGTCAGAATCAGCCATGCCAGAATGGAGGCACCTGCATTGACCTTGTGAACCATTTCAAGTGCTCATGCCCACCAGGCACTCGAGGTATGAAATCAGTCTTGCTCATCTTCTGTCTAAGCCATTCTC-TAAGCTATAGATCCATTCCTAGTGTTGAAGGGATTTT-TAAAAAAAATTTGATAG--TTACTAGCTTCATTGCAAGCATTTAGTTCTGGATTCTGGTAATGTAAGCCATTTTACTCTCTCATCTCTTGCTAGCACTGA--------CTCATACTCTCAGTTCTTTTGGGTGGTTGTTTGACATCTT-ATATTCCA-GAAA-ACAGAATGTGTAACTCATAGAACATT-GC-------GACAAAATTATCCTAGTCAGCAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||| || | || |||||||| |  | | ||| |||| |    ||||| || ||   |||| || ||  | |||||||||||| |  |   ||    |||| ||||  | |    || |||| |||||||||||| | |||||| ||     ||||||||| || || |||||||||||||||||||| ||||| || |||||||| ||||||||||| |||||||||||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||  |||   ||| |||  || | | |||| || |||| |||| |||||||| ||||||| | |||||||| |||||  ||   |||||    |||||||||||| |||||||||||||||  || || |||||  ||||||||||| |||| |||||||||||||| ||||         | ||  | ||||   ||||   |||||||||| |||||| |||||||| |||| ||||||| || ||   ||| |||||| ||        | ||||||| ||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|2261261574|emb|OX090927.1|</Hit_id>
+  <Hit_def>Heterocephalus glaber genome assembly, chromosome: 19</Hit_def>
+  <Hit_accession>OX090927</Hit_accession>
+  <Hit_len>60818048</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.929</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>8.79463e-106</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>7845506</Hsp_hit-from>
+      <Hsp_hit-to>7846084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>464</Hsp_identity>
+      <Hsp_positive>464</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>609</Hsp_align-len>
+      <Hsp_qseq>ATGATTAGCAGAGAGTGTGATGGTTCCAGAGAAAACATACAAAAGCTAAATTAGGAGGTGGGAGACAGTCACAGAAATGTTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGT--AATGGTCCAATATTTCTTGTCCTTTTT-GTTTCCTCATG-----GCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGGGGATTTTATAAAATTAA--AGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTGCTAGCTCTGATGTTGTGGTTTATGTTGTCAG---TTTTATCTGGTTGTTTGGCATCTTGATATTCCATGAAACACAGAATATGGAAGGGATACAACATTAGCATAACATTAAAAAATTAGCCTGGTCAGTAAGATTTCT</Hsp_qseq>
+      <Hsp_hseq>ATGATGAGCAGAGAATGGG-TGATTCCAGAGGAGCC-TGCAAGAGCTGAGGG-GGAGGGGGCAGG--GTCATAGCAACATCCCAGATCTCACTTGACCATATGTG--GTTTTCAGTCGACTCAATCAGTATTCCTTGTCCTTTTTTGCTTCCTCTTGCTTTGGCAGTGTGTTCCGGGATATCAGGGTGTCAACTGTGAATATGAGGTAGATGAGTGTCAGAATCAGCCATGCCAGAATGGAGGCACCTGCATTGACCTTGTGAACCATTTCAAGTGCTCATGCCCACCAGGCACTCGAGGTATGAAATCAGTCTTGCTCATCTTCTGTCTAAGCCATTCTC-TAAGCTATAGATCCATTCCTAGTGTTGAAGGGATTTT-TAAAAAAAATTTGATAG--TTACTAGCTTCATTGCAAGCATTTAGTTCTGGATTCTGGTAATGTAAGCCATTTTACTCTCTCATCTCTTGCTAGCACTGA--------CTCATACTCTCAGTTCTTTTGGGTGGTTGTTTGACATCTT-ATATTCCA-GAAA-ACAGAATGTGTAACTCATAGAACATT-GC-------GACAAAATTATCCTAGTCAGCAAGATTTCT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||| || | || |||||||| |  | | ||| |||| |    ||||| || ||   |||| || ||  | |||||||||||| |  |   ||    |||| ||||  | |    || |||| |||||||||||| | |||||| ||     ||||||||| || || |||||||||||||||||||| ||||| || |||||||| ||||||||||| |||||||||||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||  |||   ||| |||  || | | |||| || |||| |||| |||||||| ||||||| | |||||||| |||||  ||   |||||    |||||||||||| |||||||||||||||  || || |||||  ||||||||||| |||| |||||||||||||| ||||         | ||  | ||||   ||||   |||||||||| |||||| |||||||| |||| ||||||| || ||   ||| |||||| ||        | ||||||| ||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1147707054|emb|LT744822.1|</Hit_id>
+  <Hit_def>Human ORFeome Gateway entry vector pENTR223-NOTCH2, complete sequence</Hit_def>
+  <Hit_accession>LT744822</Hit_accession>
+  <Hit_len>6495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.516</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>7.22545e-88</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>4008</Hsp_hit-from>
+      <Hsp_hit-to>4194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATA</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.36059</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>3188</Hsp_hit-from>
+      <Hsp_hit-to>3270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CCAGGCTATCAG-GGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGA</Hsp_qseq>
+      <Hsp_hseq>CCAGGCT-TCAGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| ||| |  |||||||| | ||  | ||||| ||||      | || ||||||||||||||  ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|649136567|gb|KJ901607.1|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens clone ccsbBroadEn_11001 NOTCH2 gene, encodes complete protein</Hit_def>
+  <Hit_accession>KJ901607</Hit_accession>
+  <Hit_len>3840</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.713</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>2.52193e-87</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>3589</Hsp_hit-from>
+      <Hsp_hit-to>3774</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.36059</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>2769</Hsp_hit-from>
+      <Hsp_hit-to>2851</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CCAGGCTATCAG-GGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGA</Hsp_qseq>
+      <Hsp_hseq>CCAGGCT-TCAGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| ||| |  |||||||| | ||  | ||||| ||||      | || ||||||||||||||  ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1828350123|gb|CP050603.1|</Hit_id>
+  <Hit_def>Canis lupus familiaris breed Labrador retriever chromosome 17a</Hit_def>
+  <Hit_accession>CP050603</Hit_accession>
+  <Hit_len>64150251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.21224e-75</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>56502360</Hsp_hit-from>
+      <Hsp_hit-to>56502099</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAA</Hsp_qseq>
+      <Hsp_hseq>TTCCAGACCTCATTTGCTCTGGTGGTCTGTTTCTAGCAATGGTCCAGTGTTTCTT--CCTTTTTGCTTGCTCCTATCAGTGTGTCCCAGGATATCAGGGCGTCAATTGCGAGTATGAAGTAGATGAGTGTCAGAATCAGCCATGCCAGAACGGAGGCACCTGTGTCGACCTCGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGTATGCAGTCAGCCCTA-CCCGTCTCCATCTAGGGCATTTTCTTAAGTTATAA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| | ||||| |||||||||||| || ||||||||| | ||||||  |||||||| || ||| |  |||||||||||||| |||||||| ||||| || ||||||||||| |||||||| ||||||||||| |||||||| |||||||||||| | ||||| |||||||||||||||||||| || |||||||||||||| |||||| | ||| || || ||  | |||||| |||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.21224e-75</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>57013012</Hsp_hit-from>
+      <Hsp_hit-to>57013273</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAA</Hsp_qseq>
+      <Hsp_hseq>TTCCAGACCTCATTTGCTCTGGTGGTCTGTTTCTAGCAATGGTCCAGTGTTTCTT--CCTTTTTGCTTGCTCCTATCAGTGTGTCCCAGGATATCAGGGCGTCAATTGCGAGTATGAAGTAGATGAGTGTCAGAATCAGCCATGCCAGAACGGAGGCACCTGTGTCGACCTCGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGTATGCAGTCAGCCCTA-CCCGTCTCCATCTAGGGCATTTTCTTAAGTTATAA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| | ||||| |||||||||||| || ||||||||| | ||||||  |||||||| || ||| |  |||||||||||||| |||||||| ||||| || ||||||||||| |||||||| ||||||||||| |||||||| |||||||||||| | ||||| |||||||||||||||||||| || |||||||||||||| |||||| | ||| || || ||  | |||||| |||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1828349931|gb|CP050614.1|</Hit_id>
+  <Hit_def>Canis lupus familiaris breed Labrador retriever chromosome 17b</Hit_def>
+  <Hit_accession>CP050614</Hit_accession>
+  <Hit_len>64169108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.21224e-75</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>56535493</Hsp_hit-from>
+      <Hsp_hit-to>56535232</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAA</Hsp_qseq>
+      <Hsp_hseq>TTCCAGACCTCATTTGCTCTGGTGGTCTGTTTCTAGCAATGGTCCAGTGTTTCTT--CCTTTTTGCTTGCTCCTATCAGTGTGTCCCAGGATATCAGGGCGTCAATTGCGAGTATGAAGTAGATGAGTGTCAGAATCAGCCATGCCAGAACGGAGGCACCTGTGTCGACCTCGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGTATGCAGTCAGCCCTA-CCCGTCTCCATCTAGGGCATTTTCTTAAGTTATAA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| | ||||| |||||||||||| || ||||||||| | ||||||  |||||||| || ||| |  |||||||||||||| |||||||| ||||| || ||||||||||| |||||||| ||||||||||| |||||||| |||||||||||| | ||||| |||||||||||||||||||| || |||||||||||||| |||||| | ||| || || ||  | |||||| |||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.21224e-75</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>57045565</Hsp_hit-from>
+      <Hsp_hit-to>57045826</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAA</Hsp_qseq>
+      <Hsp_hseq>TTCCAGACCTCATTTGCTCTGGTGGTCTGTTTCTAGCAATGGTCCAGTGTTTCTT--CCTTTTTGCTTGCTCCTATCAGTGTGTCCCAGGATATCAGGGCGTCAATTGCGAGTATGAAGTAGATGAGTGTCAGAATCAGCCATGCCAGAACGGAGGCACCTGTGTCGACCTCGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGTATGCAGTCAGCCCTA-CCCGTCTCCATCTAGGGCATTTTCTTAAGTTATAA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| | ||||| |||||||||||| || ||||||||| | ||||||  |||||||| || ||| |  |||||||||||||| |||||||| ||||| || ||||||||||| |||||||| ||||||||||| |||||||| |||||||||||| | ||||| |||||||||||||||||||| || |||||||||||||| |||||| | ||| || || ||  | |||||| |||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1997758175|emb|HG994396.1|</Hit_id>
+  <Hit_def>Canis lupus genome assembly, chromosome: 17</Hit_def>
+  <Hit_accession>HG994396</Hit_accession>
+  <Hit_len>65956162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.21224e-75</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>6987850</Hsp_hit-from>
+      <Hsp_hit-to>6987589</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAA</Hsp_qseq>
+      <Hsp_hseq>TTCCAGACCTCATTTGCTCTGGTGGTCTGTTTCTAGCAATGGTCCAGTGTTTCTT--CCTTTTTGCTTGCTCCTATCAGTGTGTCCCAGGATATCAGGGCGTCAATTGCGAGTATGAAGTAGATGAGTGTCAGAATCAGCCATGCCAGAACGGAGGCACCTGTGTCGACCTCGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGTATGCAGTCAGCCCTA-CCCGTCTCCATCTAGGGCATTTTCTTAAGTTATAA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| | ||||| |||||||||||| || ||||||||| | ||||||  |||||||| || ||| |  |||||||||||||| |||||||| ||||| || ||||||||||| |||||||| ||||||||||| |||||||| |||||||||||| | ||||| |||||||||||||||||||| || |||||||||||||| |||||| | ||| || || ||  | |||||| |||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.21224e-75</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>7539641</Hsp_hit-from>
+      <Hsp_hit-to>7539902</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAA</Hsp_qseq>
+      <Hsp_hseq>TTCCAGACCTCATTTGCTCTGGTGGTCTGTTTCTAGCAATGGTCCAGTGTTTCTT--CCTTTTTGCTTGCTCCTATCAGTGTGTCCCAGGATATCAGGGCGTCAATTGCGAGTATGAAGTAGATGAGTGTCAGAATCAGCCATGCCAGAACGGAGGCACCTGTGTCGACCTCGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGTATGCAGTCAGCCCTA-CCCGTCTCCATCTAGGGCATTTTCTTAAGTTATAA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| | ||||| |||||||||||| || ||||||||| | ||||||  |||||||| || ||| |  |||||||||||||| |||||||| ||||| || ||||||||||| |||||||| ||||||||||| |||||||| |||||||||||| | ||||| |||||||||||||||||||| || |||||||||||||| |||||| | ||| || || ||  | |||||| |||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.21224e-75</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>7631349</Hsp_hit-from>
+      <Hsp_hit-to>7631610</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAA</Hsp_qseq>
+      <Hsp_hseq>TTCCAGACCTCATTTGCTCTGGTGGTCTGTTTCTAGCAATGGTCCAGTGTTTCTT--CCTTTTTGCTTGCTCCTATCAGTGTGTCCCAGGATATCAGGGCGTCAATTGCGAGTATGAAGTAGATGAGTGTCAGAATCAGCCATGCCAGAACGGAGGCACCTGTGTCGACCTCGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGTATGCAGTCAGCCCTA-CCCGTCTCCATCTAGGGCATTTTCTTAAGTTATAA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| | ||||| |||||||||||| || ||||||||| | ||||||  |||||||| || ||| |  |||||||||||||| |||||||| ||||| || ||||||||||| |||||||| ||||||||||| |||||||| |||||||||||| | ||||| |||||||||||||||||||| || |||||||||||||| |||||| | ||| || || ||  | |||||| |||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|168986552|gb|AC187007.14|</Hit_id>
+  <Hit_def>Canis familiaris chromosome 17, clone XX-184B3, complete sequence</Hit_def>
+  <Hit_accession>AC187007</Hit_accession>
+  <Hit_len>215623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.21224e-75</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>14534</Hsp_hit-from>
+      <Hsp_hit-to>14795</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TTCCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAA</Hsp_qseq>
+      <Hsp_hseq>TTCCAGACCTCATTTGCTCTGGTGGTCTGTTTCTAGCAATGGTCCAGTGTTTCTT--CCTTTTTGCTTGCTCCTATCAGTGTGTCCCAGGATATCAGGGCGTCAATTGCGAGTATGAAGTAGATGAGTGTCAGAATCAGCCATGCCAGAACGGAGGCACCTGTGTCGACCTCGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGTATGCAGTCAGCCCTA-CCCGTCTCCATCTAGGGCATTTTCTTAAGTTATAA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| | ||||| |||||||||||| || ||||||||| | ||||||  |||||||| || ||| |  |||||||||||||| |||||||| ||||| || ||||||||||| |||||||| ||||||||||| |||||||| |||||||||||| | ||||| |||||||||||||||||||| || |||||||||||||| |||||| | ||| || || ||  | |||||| |||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|2015610023|ref|XM_021720867.2|</Hit_id>
+  <Hit_def>PREDICTED: Ictidomys tridecemlineatus notch receptor 2 (LOC101965998), mRNA</Hit_def>
+  <Hit_accession>XM_021720867</Hit_accession>
+  <Hit_len>3580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.497</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>2.52416e-68</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>3366</Hsp_hit-from>
+      <Hsp_hit-to>3567</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCT-TAAGTTATAAATCCATTCTTAGTG</Hsp_qseq>
+      <Hsp_hseq>AGTGTATTCCAGGATATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCATGCCAGAATGGAGGCACCTGCATCGACCTTGTGAACCATTTCAAGTGCTCATGTCCACCAGGCACTCGGGGTATGAAATCAGCCTTACTCATCTTCCATACATGGCCTT-TCTCTAAGTTACAGATCCATTCTTAGTG</Hsp_hseq>
+      <Hsp_midline>||||| | ||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || |||||||||||||||||||||||||| || ||||||||||||||||||||||||||| |||||  ||| |||||| || ||| || ||| ||||||| | ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1885978899|emb|LR862374.1|</Hit_id>
+  <Hit_def>Pipistrellus pipistrellus genome assembly, chromosome: 18</Hit_def>
+  <Hit_accession>LR862374</Hit_accession>
+  <Hit_len>39450869</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.497</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>2.52416e-68</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>569</Hsp_query-to>
+      <Hsp_hit-from>9124294</Hsp_hit-from>
+      <Hsp_hit-to>9123858</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>346</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>CCAGATCTCACTAGCTCTCGTGGTCTGTTTCCAGTAATGGTCCAATATTTCTTGTCCTTTTTGTTTCCTCATGGCAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGTATGAAATCATCCTTATCCATTTTCCATCCAGGGCATTGTCTTAAGTTATAAATCCATTCTTAGTGTTCAGG---GGATTTTATAAAATTAAAGATAGGAAGACTAGCTTCATTCCAAGCATTTAGTTCTACATCCTAGTAATTCAAGCCATTTTATTCTCCCATCTCTTG-CTAGCTCTGATGTTGTGGTTTATGTTGTCAGTTTTATCTGGTTGTT--TGGCATCTTGATATTCCATGAAACACAGAATATGGAA</Hsp_qseq>
+      <Hsp_hseq>CCAGATCTCGTTTGCTC--GTGGTCTGTTTCTAATGATGGTCCCATATTTCTTGTCCTTCTGTCTGCCCCCTG-CAGTGCGTCCCAGGGTACCAGGGTGTCAACTGCGAGTACGAGGTGGATGAGTGCCAGAACCAGCCGTGCCAGAACGGGGGCACCTGTGTGGACCTGGTGAACCACTTCAAGTGCTCCTGCCCGCCGGGCACCCGCGGTAGGCAATCAGCCTTGTCCGTCCTCTGTCCGGGGCATTCTC-TAAGTTACAAATGCAATTTTAATGTTGAGGAGAGGGTGTTA-AAAAT--CAGAT---------------ATTACA-------TGGTCTGAATTCTGGTAACTC-GGCCGTTTCATTCTCTCGGCTCTTGCCTGGCTCTGAGGTTCTGACTCATGTCCTTAGTGCTGTCTGGGTCTTACTGACATCTT-ACGTTCCATGAAACACAGAATGTGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||  | ||||  |||||||||||| | | ||||||| ||||||||||||||| |   | || | || ||||| |||||||| || |||||||||||||| ||||| || ||||||||||||||||| ||||| |||||||| || ||||||||| | ||||| |||||||| ||||||||||| ||||| || ||||| || |||| | ||||| |||| ||| |  ||  ||| ||||||| || ||||||| |||| || | ||| |||| |||   || | ||| |||||   ||||               ||| ||        | |||  || || |||| ||  ||| ||| |||||| |  |||||| || ||||||| ||| ||  | ||||  | |||  | ||||| | ||  || |||||| |  |||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1848982525|ref|XM_034954795.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus notch receptor 2 (NOTCH2), mRNA</Hit_def>
+  <Hit_accession>XM_034954795</Hit_accession>
+  <Hit_len>9552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.544</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.50864e-60</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>2410</Hsp_hit-from>
+      <Hsp_hit-to>2545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1753022643|ref|XM_031008833.1|</Hit_id>
+  <Hit_def>PREDICTED: Gorilla gorilla gorilla notch receptor 2 (NOTCH2), mRNA</Hit_def>
+  <Hit_accession>XM_031008833</Hit_accession>
+  <Hit_len>10745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.544</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.50864e-60</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3605</Hsp_hit-from>
+      <Hsp_hit-to>3740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1519312484|ref|NM_024408.4|</Hit_id>
+  <Hit_def>Homo sapiens notch receptor 2 (NOTCH2), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_024408</Hit_accession>
+  <Hit_len>11425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.544</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.50864e-60</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3912</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.36059</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>2957</Hsp_hit-from>
+      <Hsp_hit-to>3039</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CCAGGCTATCAG-GGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGA</Hsp_qseq>
+      <Hsp_hseq>CCAGGCT-TCAGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| ||| |  |||||||| | ||  | ||||| ||||      | || ||||||||||||||  ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1367103491|ref|XM_024354928.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes notch 2 (NOTCH2), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_024354928</Hit_accession>
+  <Hit_len>10778</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.544</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.50864e-60</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3627</Hsp_hit-from>
+      <Hsp_hit-to>3762</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1367103489|ref|XM_024354927.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes notch 2 (NOTCH2), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024354927</Hit_accession>
+  <Hit_len>10843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.544</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.50864e-60</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3692</Hsp_hit-from>
+      <Hsp_hit-to>3827</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1367103487|ref|XM_024354924.1|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes notch 2 (NOTCH2), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_024354924</Hit_accession>
+  <Hit_len>10839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.544</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.50864e-60</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3688</Hsp_hit-from>
+      <Hsp_hit-to>3823</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|11527996|gb|AF315356.1|AF315356</Hit_id>
+  <Hit_def>Homo sapiens NOTCH2 protein (NOTCH2) mRNA, complete cds</Hit_def>
+  <Hit_accession>AF315356</Hit_accession>
+  <Hit_len>11189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.544</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.50864e-60</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3533</Hsp_hit-from>
+      <Hsp_hit-to>3668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.36059</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>2713</Hsp_hit-from>
+      <Hsp_hit-to>2795</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CCAGGCTATCAG-GGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGA</Hsp_qseq>
+      <Hsp_hseq>CCAGGCT-TCAGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| ||| |  |||||||| | ||  | ||||| ||||      | || ||||||||||||||  ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|11275977|gb|AF308601.1|AF308601</Hit_id>
+  <Hit_def>Homo sapiens NOTCH 2 (N2) mRNA, complete cds</Hit_def>
+  <Hit_accession>AF308601</Hit_accession>
+  <Hit_len>9722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.544</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.50864e-60</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3533</Hsp_hit-from>
+      <Hsp_hit-to>3668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.36059</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>2713</Hsp_hit-from>
+      <Hsp_hit-to>2795</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CCAGGCTATCAG-GGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGA</Hsp_qseq>
+      <Hsp_hseq>CCAGGCT-TCAGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGA</Hsp_hseq>
+      <Hsp_midline>||||||| |||| ||| |  |||||||| | ||  | ||||| ||||      | || ||||||||||||||  ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1679773|gb|U77493.1|HSU77493</Hit_id>
+  <Hit_def>Human Notch2 mRNA, partial cds</Hit_def>
+  <Hit_accession>U77493</Hit_accession>
+  <Hit_len>789</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.544</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.50864e-60</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>623</Hsp_hit-from>
+      <Hsp_hit-to>758</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1825939744|ref|XM_033198182.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi notch receptor 2 (NOTCH2), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_033198182</Hit_accession>
+  <Hit_len>10739</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3609</Hsp_hit-from>
+      <Hsp_hit-to>3744</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1825939742|ref|XM_033198181.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi notch receptor 2 (NOTCH2), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_033198181</Hit_accession>
+  <Hit_len>10784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3654</Hsp_hit-from>
+      <Hsp_hit-to>3789</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1825939740|ref|XM_033198180.1|</Hit_id>
+  <Hit_def>PREDICTED: Trachypithecus francoisi notch receptor 2 (NOTCH2), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_033198180</Hit_accession>
+  <Hit_len>11010</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3880</Hsp_hit-from>
+      <Hsp_hit-to>4015</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1788671161|ref|XM_023222770.3|</Hit_id>
+  <Hit_def>PREDICTED: Piliocolobus tephrosceles notch receptor 2 (NOTCH2), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_023222770</Hit_accession>
+  <Hit_len>10620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3489</Hsp_hit-from>
+      <Hsp_hit-to>3624</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2309328825|ref|XM_050749316.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca thibetana thibetana notch receptor 2 (LOC126931272), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_050749316</Hit_accession>
+  <Hit_len>10826</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3701</Hsp_hit-from>
+      <Hsp_hit-to>3836</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2309328823|ref|XM_050749307.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca thibetana thibetana notch receptor 2 (LOC126931272), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_050749307</Hit_accession>
+  <Hit_len>11816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>4691</Hsp_hit-from>
+      <Hsp_hit-to>4826</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|2161796189|ref|XM_045381127.1|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis notch receptor 2 (NOTCH2), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_045381127</Hit_accession>
+  <Hit_len>13850</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>6726</Hsp_hit-from>
+      <Hsp_hit-to>6861</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2161796188|ref|XM_005542140.3|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis notch receptor 2 (NOTCH2), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_005542140</Hit_accession>
+  <Hit_len>10857</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3733</Hsp_hit-from>
+      <Hsp_hit-to>3868</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2161796186|ref|XM_005542139.3|</Hit_id>
+  <Hit_def>PREDICTED: Macaca fascicularis notch receptor 2 (NOTCH2), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005542139</Hit_accession>
+  <Hit_len>10874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>3750</Hsp_hit-from>
+      <Hsp_hit-to>3885</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1938822324|ref|XM_007977333.2|</Hit_id>
+  <Hit_def>PREDICTED: Chlorocebus sabaeus notch receptor 2 (NOTCH2), mRNA</Hit_def>
+  <Hit_accession>XM_007977333</Hit_accession>
+  <Hit_len>11805</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.036</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.49191e-58</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>4674</Hsp_hit-from>
+      <Hsp_hit-to>4809</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCACTCGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>89807799</Statistics_db-num>
+      <Statistics_db-len>1404960099</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_20003</BlastOutput_query-ID>
+  <BlastOutput_query-def>AAH48204.1 DSTYK protein, partial [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>223</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_20003</Iteration_query-ID>
+  <Iteration_query-def>AAH48204.1 DSTYK protein, partial [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>223</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AAH48204.1|</Hit_id>
+  <Hit_def>DSTYK protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH48204</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>1.17217e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_047273107.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X5 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_047273107</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.937</Hsp_bit-score>
+      <Hsp_score>1221</Hsp_score>
+      <Hsp_evalue>3.03617e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>467</Hsp_hit-from>
+      <Hsp_hit-to>689</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_047273108.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X6 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_047273108</Hit_accession>
+  <Hit_len>675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.781</Hsp_bit-score>
+      <Hsp_score>1218</Hsp_score>
+      <Hsp_evalue>4.82405e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>675</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_047273101.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_047273101</Hit_accession>
+  <Hit_len>875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>8.26439e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>653</Hsp_hit-from>
+      <Hsp_hit-to>875</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAH53627.1|</Hit_id>
+  <Hit_def>Dual serine/threonine and tyrosine protein kinase [Homo sapiens] &gt;gb|ACE87798.1| receptor interacting protein kinase 5 protein [synthetic construct] &gt;gb|ACT64414.1| receptor interacting protein kinase 5 protein, partial [synthetic construct] &gt;gb|AIC62721.1| DSTYK, partial [synthetic construct] &gt;gb|AIC63348.1| DSTYK, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAH53627</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.855</Hsp_bit-score>
+      <Hsp_score>1213</Hsp_score>
+      <Hsp_evalue>1.21384e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_955749.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform 2 [Homo sapiens] &gt;gb|EAW91543.1| receptor interacting protein kinase 5, isoform CRA_d [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_955749</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.855</Hsp_bit-score>
+      <Hsp_score>1213</Hsp_score>
+      <Hsp_evalue>1.41202e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_003792283.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Otolemur garnettii]</Hit_def>
+  <Hit_accession>XP_003792283</Hit_accession>
+  <Hit_len>883</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.7</Hsp_bit-score>
+      <Hsp_score>1210</Hsp_score>
+      <Hsp_evalue>4.13659e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>661</Hsp_hit-from>
+      <Hsp_hit-to>883</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_024087757.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Pongo abelii] &gt;gb|PNJ53339.1| DSTYK isoform 2 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_024087757</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.7</Hsp_bit-score>
+      <Hsp_score>1210</Hsp_score>
+      <Hsp_evalue>4.20407e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_011813142.1|</Hit_id>
+  <Hit_def>PREDICTED: dual serine/threonine and tyrosine protein kinase isoform X2 [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011813142</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>4.63283e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_007986951.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_007986951</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>5.56658e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_017805723.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Papio anubis] &gt;ref|XP_025211472.1| dual serine/threonine and tyrosine protein kinase isoform X2 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_017805723</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>5.56658e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_009438507.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Pan troglodytes] &gt;gb|PNJ00505.1| DSTYK isoform 2 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_009438507</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>5.71931e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>663</Hsp_hit-from>
+      <Hsp_hit-to>885</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_050619003.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Macaca thibetana thibetana]</Hit_def>
+  <Hit_accession>XP_050619003</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>5.87546e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_005540635.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Macaca fascicularis] &gt;ref|XP_011745113.1| dual serine/threonine and tyrosine protein kinase isoform X2 [Macaca nemestrina] &gt;ref|XP_011845813.1| PREDICTED: dual serine/threonine and tyrosine protein kinase isoform X2 [Mandrillus leucophaeus] &gt;ref|XP_014973760.1| dual serine/threonine and tyrosine protein kinase isoform X2 [Macaca mulatta]</Hit_def>
+  <Hit_accession>XP_005540635</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>6.00376e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_011894606.1|</Hit_id>
+  <Hit_def>PREDICTED: dual serine/threonine and tyrosine protein kinase isoform X3 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011894606</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>6.9838e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_017380925.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Cebus imitator] &gt;ref|XP_032144836.1| dual serine/threonine and tyrosine protein kinase isoform X3 [Sapajus apella]</Hit_def>
+  <Hit_accession>XP_017380925</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>7.21476e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_003938376.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_003938376</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>7.29311e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_004028291.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004028291</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>7.95133e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGVRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEG+RFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_035137377.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_035137377</Hit_accession>
+  <Hit_len>883</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.774</Hsp_bit-score>
+      <Hsp_score>1205</Hsp_score>
+      <Hsp_evalue>1.72132e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>661</Hsp_hit-from>
+      <Hsp_hit-to>883</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGVRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEG+RFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_033056585.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Trachypithecus francoisi]</Hit_def>
+  <Hit_accession>XP_033056585</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.003</Hsp_bit-score>
+      <Hsp_score>1203</Hsp_score>
+      <Hsp_evalue>3.84728e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSHSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKS+SEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_023042636.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023042636</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>6.46239e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDSLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGD LKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_004462641.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase [Dasypus novemcinctus]</Hit_def>
+  <Hit_accession>XP_004462641</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.307</Hsp_bit-score>
+      <Hsp_score>1196</Hsp_score>
+      <Hsp_evalue>5.24791e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSNSEQPNQGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKSNSEQPN+GLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_021563044.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_021563044</Hit_accession>
+  <Hit_len>826</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.381</Hsp_bit-score>
+      <Hsp_score>1191</Hsp_score>
+      <Hsp_evalue>5.70173e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>604</Hsp_hit-from>
+      <Hsp_hit-to>826</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDSLKRPLLGIVQPMLQGIMDRLCKTNSERLNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGD LKRPLLGIVQPMLQGIM+RLCK+NSE+ NRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_044772251.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X1 [Neomonachus schauinslandi]</Hit_def>
+  <Hit_accession>XP_044772251</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>8.44317e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYSYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDY+YGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_012513294.1|</Hit_id>
+  <Hit_def>PREDICTED: dual serine/threonine and tyrosine protein kinase isoform X2 [Propithecus coquereli]</Hit_def>
+  <Hit_accession>XP_012513294</Hit_accession>
+  <Hit_len>883</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>8.49075e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>661</Hsp_hit-from>
+      <Hsp_hit-to>883</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLSVFDEECWQLMEACWDGDPSKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERL VFDEECWQLMEACWDGDP KRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>dbj|BAA32317.1|</Hit_id>
+  <Hit_def>KIAA0472 protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAA32317</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>1.18324e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT---------------------------------------------GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGKYDNSVDVYAFGILFWYICSGSVKLPEAFERCASKDHLWNNVRRGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT                                             GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>emb|CAH7201049.1|</Hit_id>
+  <Hit_def>Dstyk [Phodopus roborovskii]</Hit_def>
+  <Hit_accession>CAH7201049</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.151</Hsp_bit-score>
+      <Hsp_score>1193</Hsp_score>
+      <Hsp_evalue>1.37312e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>660</Hsp_hit-from>
+      <Hsp_hit-to>882</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGTRPERLPVFDEECWQLMEACWDGDPSKRPLLGIVQPMLQGIMDRLCKCNSERPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTG RPERLPVFDEECWQLMEACWDGDP KRPLLGIVQPMLQGIM+RLCK NSE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|KAF6074373.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase [Phyllostomus discolor]</Hit_def>
+  <Hit_accession>KAF6074373</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.151</Hsp_bit-score>
+      <Hsp_score>1193</Hsp_score>
+      <Hsp_evalue>1.52896e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSNSEQTNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKSNSEQ NRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_045439002.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X4 [Pipistrellus kuhlii]</Hit_def>
+  <Hit_accession>XP_045439002</Hit_accession>
+  <Hit_len>860</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.225</Hsp_bit-score>
+      <Hsp_score>1188</Hsp_score>
+      <Hsp_evalue>4.32022e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>638</Hsp_hit-from>
+      <Hsp_hit-to>860</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLKTRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSDSEEPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTL+TRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKS+SE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KAF6292762.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase [Rhinolophus ferrumequinum]</Hit_def>
+  <Hit_accession>KAF6292762</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>5.95863e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGVRPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSHSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTG RPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKS+SEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_008578868.1|</Hit_id>
+  <Hit_def>PREDICTED: dual serine/threonine and tyrosine protein kinase isoform X2 [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008578868</Hit_accession>
+  <Hit_len>875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>9.97263e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>653</Hsp_hit-from>
+      <Hsp_hit-to>875</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYSYGGGSSTAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDVKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDY+YGGGSS AVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRD+KLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_036727628.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Balaenoptera musculus]</Hit_def>
+  <Hit_accession>XP_036727628</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.84</Hsp_bit-score>
+      <Hsp_score>1187</Hsp_score>
+      <Hsp_evalue>1.10247e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYSGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSHSERPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLY+GLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKS+SE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_004392880.1|</Hit_id>
+  <Hit_def>PREDICTED: dual serine/threonine and tyrosine protein kinase isoform X2 [Odobenus rosmarus divergens]</Hit_def>
+  <Hit_accession>XP_004392880</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>1.50771e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYGYGGGSSVAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSNSERPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDY YGGGSS+AVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKSNSE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_007470743.1|</Hit_id>
+  <Hit_def>PREDICTED: dual serine/threonine and tyrosine protein kinase isoform X2 [Lipotes vexillifer]</Hit_def>
+  <Hit_accession>XP_007470743</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>1.871e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYSGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSHSERPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLY+GLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKS+SE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_045439001.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Pipistrellus kuhlii]</Hit_def>
+  <Hit_accession>XP_045439001</Hit_accession>
+  <Hit_len>909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>3.39383e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>687</Hsp_hit-from>
+      <Hsp_hit-to>909</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLKTRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSDSEEPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTL+TRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKS+SE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_028344336.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X5 [Physeter catodon]</Hit_def>
+  <Hit_accession>XP_028344336</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>5.10521e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYSGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDQLCKSHSERPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLY+GLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM++LCKS+SE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_028344335.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X4 [Physeter catodon]</Hit_def>
+  <Hit_accession>XP_028344335</Hit_accession>
+  <Hit_len>891</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>6.08116e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>669</Hsp_hit-from>
+      <Hsp_hit-to>891</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYSGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDQLCKSHSERPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLY+GLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM++LCKS+SE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_040841449.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Ochotona curzoniae]</Hit_def>
+  <Hit_accession>XP_040841449</Hit_accession>
+  <Hit_len>881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.144</Hsp_bit-score>
+      <Hsp_score>1180</Hsp_score>
+      <Hsp_evalue>1.25865e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>659</Hsp_hit-from>
+      <Hsp_hit-to>881</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLEPRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPMFDEECWQLMEACWDGDPSKRPLLGIVQPMLQGIMDRLCKSSCEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLE RLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLP+FDEECWQLMEACWDGDP KRPLLGIVQPMLQGIM+RLCKS+ EQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_044528978.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Gracilinanus agilis]</Hit_def>
+  <Hit_accession>XP_044528978</Hit_accession>
+  <Hit_len>897</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.144</Hsp_bit-score>
+      <Hsp_score>1180</Hsp_score>
+      <Hsp_evalue>1.78239e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>675</Hsp_hit-from>
+      <Hsp_hit-to>897</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLILKLRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSRRPLLGIVQPMLQGIMDRLCKSNSEQPNKGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGL L+ RLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKSNSEQPN+GLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_022364461.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Enhydra lutris kenyoni]</Hit_def>
+  <Hit_accession>XP_022364461</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>2.13231e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>663</Hsp_hit-from>
+      <Hsp_hit-to>885</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYSYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGVRFLHSQGLVHRDIKLKNVLLDRQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSSSERPSRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDY+YGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEG+RFLHSQGLVHRDIKLKNVLLD+QNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKS+SE+P+RGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_047608143.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Phacochoerus africanus]</Hit_def>
+  <Hit_accession>XP_047608143</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>2.57669e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQDRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDSDPSQRPLLGIVQPMLQGIMDRLCKSHSERPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQ+RAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWD DP +RPLLGIVQPMLQGIM+RLCKS+SE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|KAF6396574.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase [Rousettus aegyptiacus]</Hit_def>
+  <Hit_accession>KAF6396574</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>2.87253e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT---------------------------------------------GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGKYDNSVDVYAFGILFWYICSGSVKLPEAFERCASKDHLWNNVRRGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT                                             GARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_006834150.1|</Hit_id>
+  <Hit_def>PREDICTED: dual serine/threonine and tyrosine protein kinase isoform X2 [Chrysochloris asiatica]</Hit_def>
+  <Hit_accession>XP_006834150</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.603</Hsp_bit-score>
+      <Hsp_score>1176</Hsp_score>
+      <Hsp_evalue>3.92498e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYSYGGGSSIAVLLIMERLHRDLYTGLKAGLALETRLQVALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNHAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSDSERPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDY+YGGGSSIAVLLIMERLHRDLYTGLKAGL LETRLQ+ALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQN AKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKS+SE+PNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_025776838.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Puma concolor]</Hit_def>
+  <Hit_accession>XP_025776838</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>5.54372e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>662</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYGYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLRGIMDRLCASASEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDY YGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPML+GIM+RLC S SEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_047273103.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X3 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_047273103</Hit_accession>
+  <Hit_len>734</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.595</Hsp_bit-score>
+      <Hsp_score>1163</Hsp_score>
+      <Hsp_evalue>6.49516e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>467</Hsp_hit-from>
+      <Hsp_hit-to>734</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT---------------------------------------------GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGKYDNSVDVYAFGILFWYICSGSVKLPEAFERCASKDHLWNNVRRGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT                                             GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_011507696.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X4 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_011507696</Hit_accession>
+  <Hit_len>720</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.44</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>1.36319e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>720</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT---------------------------------------------GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGKYDNSVDVYAFGILFWYICSGSVKLPEAFERCASKDHLWNNVRRGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT                                             GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|PNJ00506.1|</Hit_id>
+  <Hit_def>DSTYK isoform 3 [Pan troglodytes]</Hit_def>
+  <Hit_accession>PNJ00506</Hit_accession>
+  <Hit_len>720</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.514</Hsp_bit-score>
+      <Hsp_score>1155</Hsp_score>
+      <Hsp_evalue>5.90021e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>720</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT---------------------------------------------GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGKYDNSVDVYAFGILFWYICSGSVKLPEAFERCASKDHLWNNVRRGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT                                             GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|KAF6396575.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase [Rousettus aegyptiacus]</Hit_def>
+  <Hit_accession>KAF6396575</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.817</Hsp_bit-score>
+      <Hsp_score>1148</Hsp_score>
+      <Hsp_evalue>7.44513e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>718</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT---------------------------------------------GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGKYDNSVDVYAFGILFWYICSGSVKLPEAFERCASKDHLWNNVRRGARPERLPVFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSNSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT                                             GARPERLPVFDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKSNSEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_023404082.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X5 [Loxodonta africana]</Hit_def>
+  <Hit_accession>XP_023404082</Hit_accession>
+  <Hit_len>720</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>1.06948e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>720</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT---------------------------------------------GARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGKYDNSVDVYAFGILFWYICSGSVKLPEAFERCASKDHLWNNVRRGARPERLPVFDEECWQLMEACWDGDPLQRPLLGIVQPMLQGIMDRLCKSSSEQPNRGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFT                                             GARPERLPVFDEECWQLMEACWDGDPL+RPLLGIVQPMLQGIM+RLCKS+SEQPNRGLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_020652977.1|</Hit_id>
+  <Hit_def>dual serine/threonine and tyrosine protein kinase isoform X2 [Pogona vitticeps]</Hit_def>
+  <Hit_accession>XP_020652977</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.44</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>1.16688e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>QYGVVYLCDNWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYNYGGGSSIAVLLIMERLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKQNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGARPERLPVFDEECWQLMEACWDGDPLKRPLLGIVQPMLQGIMNRLCKSNSEQPNRGLDDST</Hsp_qseq>
+      <Hsp_hseq>QYGVVYLCNAWGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDYGYGGGSSIAVLLIMEQLHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDKNNRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTGVRPERLPIFDEECWQLMEACWDGDPSQRPLLGIVQPMLQGIMDRLCKSNSEQLNKGLDDST</Hsp_hseq>
+      <Hsp_midline>QYGVVYLC+ WGGHFPCALKSVVPPDEKHWNDLALEFHYMRSLPKHERLVDLHGSVIDY YGGGSSIAVLLIME+LHRDLYTGLKAGLTLETRLQIALDVVEGIRFLHSQGLVHRDIKLKNVLLDK NRAKITDLGFCKPEAMMSGSIVGTPIHMAPELFTG RPERLP+FDEECWQLMEACWDGDP +RPLLGIVQPMLQGIM+RLCKSNSEQ N+GLDDST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>523925081</Statistics_db-num>
+      <Statistics_db-len>205869503350</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
