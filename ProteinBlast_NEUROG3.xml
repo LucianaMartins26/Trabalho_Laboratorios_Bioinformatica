@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_249885</BlastOutput_query-ID>
+  <BlastOutput_query-def>AAH74939.1 Neurogenin 3 [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>214</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_249885</Iteration_query-ID>
+  <Iteration_query-def>AAH74939.1 Neurogenin 3 [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>214</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AAH74938.1|</Hit_id>
+  <Hit_def>Neurogenin 3 [Homo sapiens] &gt;gb|ABZ92401.1| neurogenin 3, partial [synthetic construct] &gt;gb|AAH74939.1| Neurogenin 3 [Homo sapiens] &gt;gb|AAK15022.1| neurogenin 3 [Homo sapiens] &gt;gb|AKI72021.1| NEUROG3, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAH74938</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.254</Hsp_bit-score>
+      <Hsp_score>1105</Hsp_score>
+      <Hsp_evalue>9.08864e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_066279.2|</Hit_id>
+  <Hit_def>neurogenin-3 [Homo sapiens] &gt;ref|XP_016871769.1| neurogenin-3 isoform X1 [Homo sapiens] &gt;sp|Q9Y4Z2.2| RecName: Full=Neurogenin-3; Short=NGN-3; AltName: Full=Class A basic helix-loop-helix protein 7; Short=bHLHa7; AltName: Full=Protein atonal homolog 5 [Homo sapiens] &gt;gb|ADR83510.1| neurogenin 3, partial [synthetic construct] &gt;emb|SJX29622.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAI17489.1| Neurogenin 3 [Homo sapiens] &gt;gb|AAI26469.1| Neurogenin 3 [Homo sapiens] &gt;gb|AIC51341.1| NEUROG3, partial [synthetic construct]</Hit_def>
+  <Hit_accession>NP_066279</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>6.99569e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATFSACLSPGSLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGAT SACLSPGSLAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_003312656.3|</Hit_id>
+  <Hit_def>neurogenin-3 [Pan troglodytes] &gt;ref|XP_003815976.1| neurogenin-3 [Pan paniscus] &gt;gb|PNI75576.1| NEUROG3 isoform 1 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_003312656</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>1.81719e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALESPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALE PAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AKI72019.1|</Hit_id>
+  <Hit_def>NEUROG3, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI72019</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.017</Hsp_bit-score>
+      <Hsp_score>1094</Hsp_score>
+      <Hsp_evalue>4.82497e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALSGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATFSACLSPGSLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDAL GVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGAT SACLSPGSLAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AKI72018.1|</Hit_id>
+  <Hit_def>NEUROG3, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI72018</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>6.07522e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRELNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATFSACLSPGSLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRE NRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGAT SACLSPGSLAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_004049566.3|</Hit_id>
+  <Hit_def>neurogenin-3 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004049566</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>6.63258e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALESPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGASSSACLSPGTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALE PAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGA+SSACLSPG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AKI72020.1|</Hit_id>
+  <Hit_def>NEUROG3, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI72020</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.861</Hsp_bit-score>
+      <Hsp_score>1091</Hsp_score>
+      <Hsp_evalue>1.17345e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPRDWGSLYSPVSQAGSLSPAASLEERPGLLGATFSACLSPGSLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSP DWGSLYSPVSQAGSLSPAASLEERPGLLGAT SACLSPGSLAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AAH69098.1|</Hit_id>
+  <Hit_def>Neurogenin 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH69098</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>3.47699e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHDLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGPPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATFSACLSPGSLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMH+LNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGG PGDWGSLYSPVSQAGSLSPAASLEERPGLLGAT SACLSPGSLAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>emb|CAB45384.1|</Hit_id>
+  <Hit_def>neurogenin 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>CAB45384</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.935</Hsp_bit-score>
+      <Hsp_score>1086</Hsp_score>
+      <Hsp_evalue>7.83092e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTPGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHDLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGPPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRT GNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMH+LNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGG PGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_002820920.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Pongo abelii] &gt;gb|PNJ09978.1| NEUROG3 isoform 1 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002820920</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>8.56178e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQVTRETERSFPRASDDEVTCPTSAPPSPTRTRGNCAEAEGGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALESPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLRGATSSACLSPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQVTRETERSFPRAS+DEVTCPTSAPPSPTRTRGNCAEAE GGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALE PAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGL GATSSACLSPG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_031994867.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Hylobates moloch]</Hit_def>
+  <Hit_accession>XP_031994867</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.453</Hsp_bit-score>
+      <Hsp_score>1051</Hsp_score>
+      <Hsp_evalue>1.4414e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPSGAPTVQLTRETEQSFPRASDDEVTCPTSAAPSPTRTRGNCAEAEGGGCRGAPRKLRARRGGRSRPKGELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALESPAPHCGELGSPGGSPGDWGSLYSPVSLAGSLSPAASLEERPGLRGATSSACLSPGTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQPSGAPTVQ+TRETE+SFPRAS+DEVTCPTSA PSPTRTRGNCAEAE GGCRGAPRKLRARRGGRSRPK ELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALE PAPHCGELGSPGGSPGDWGSLYSPVS AGSLSPAASLEERPGL GATSSACLSPG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_030653989.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_030653989</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.142</Hsp_bit-score>
+      <Hsp_score>1045</Hsp_score>
+      <Hsp_evalue>1.49137e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPQPWGAPTVQVTRETEQSFPRASDDEVTCPTSAAPSPTRTRGNCAEAEGGGCRGAPRKLRARRGGRSRPKGELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALESPAPHCGELGSPGGSPGDWGSLYSPVSLAGSLSPAASLEERPGLRGTTSSACLSPGTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTPQP GAPTVQVTRETE+SFPRAS+DEVTCPTSA PSPTRTRGNCAEAE GGCRGAPRKLRARRGGRSRPK ELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALE PAPHCGELGSPGGSPGDWGSLYSPVS AGSLSPAASLEERPGL G TSSACLSPG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_011940667.1|</Hit_id>
+  <Hit_def>PREDICTED: neurogenin-3 [Cercocebus atys] &gt;ref|XP_011940668.1| PREDICTED: neurogenin-3 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011940667</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.823</Hsp_bit-score>
+      <Hsp_score>1026</Hsp_score>
+      <Hsp_evalue>1.15316e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRALDDEVTCPTSAPPSPTRTRGNCAEAEGGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLRGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRA +DEVTCPTSAPPSPTRTRGNCAEAE GGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_017728610.1|</Hit_id>
+  <Hit_def>PREDICTED: neurogenin-3 [Rhinopithecus bieti] &gt;ref|XP_017728611.1| PREDICTED: neurogenin-3 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_017728610</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>1.86852e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRASDDEVTCPTSAPPSPTRTRGNCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPTASLEERPGLRGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRAS+DEVTCPTSAPPSPTRTRGNCAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSP ASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_033064798.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Trachypithecus francoisi]</Hit_def>
+  <Hit_accession>XP_033064798</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.667</Hsp_bit-score>
+      <Hsp_score>1023</Hsp_score>
+      <Hsp_evalue>2.59665e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRASDDEVTCPTSAPPSPTRTRGNCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYAMESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPTASLEERPGLRGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRAS+DEVTCPTSAPPSPTRTRGNCAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YA+E PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSP ASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_021799096.2|</Hit_id>
+  <Hit_def>neurogenin-3 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_021799096</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>4.69524e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRALDDEVTCPTSAPPSPTRTRGNCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLQGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRA +DEVTCPTSAPPSPTRTRGNCAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_023060545.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023060545</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>1.31659e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRASDDEVTCPTSAPPSPTRTRGNCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPGPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPTASLEERPGLRGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRAS+DEVTCPTSAPPSPTRTRGNCAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE P PHCGELGSP GGSPGDWGSLYSPVSQAGSLSP ASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|EHH19127.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_19772 [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH19127</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.971</Hsp_bit-score>
+      <Hsp_score>1016</Hsp_score>
+      <Hsp_evalue>3.09756e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTDETERSFPRALDDEVTCPTSAPPSPTRTRGSCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLRGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRA +DEVTCPTSAPPSPTRTRG+CAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_011846423.1|</Hit_id>
+  <Hit_def>PREDICTED: neurogenin-3 [Mandrillus leucophaeus]</Hit_def>
+  <Hit_accession>XP_011846423</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>4.64809e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRALDDEVTCSTSAPPSPTRTRGNCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLRGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRA +DEVTC TSAPPSPTRTRGNCAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_011782576.1|</Hit_id>
+  <Hit_def>PREDICTED: neurogenin-3 [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011782576</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>4.91013e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPAGASTVQVTGETERSFPRASDDEVTCPTSAPPSPTRTRGNCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYTLESPAQHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLRGATSSACLRPNTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP P+GA TVQVT ETERSFPRAS+DEVTCPTSAPPSPTRTRGNCAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS Y LE PA HCGELGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_001109816.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Macaca mulatta] &gt;ref|XP_015312399.1| neurogenin-3 [Macaca fascicularis] &gt;ref|XP_050661211.1| neurogenin-3 [Macaca thibetana thibetana]</Hit_def>
+  <Hit_accession>XP_001109816</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>5.30199e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRALDDEVTCPTSAPPSPTRTRGSCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLRGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRA +DEVTCPTSAPPSPTRTRG+CAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_025253375.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025253375</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.201</Hsp_bit-score>
+      <Hsp_score>1014</Hsp_score>
+      <Hsp_evalue>6.97477e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRALDDEVTCPTSAPPSPTRTRGNCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERAGLRGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRA +DEVTCPTSAPPSPTRTRGNCAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSPAASLEER GL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_037864789.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_037864789</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>2.48947e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRALDDEVTCPTSAPPSPTRTRGNCAEAEGGSCRAAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLRGATSSACLRPSTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRA +DEVTCPTSAPPSPTRTRGNCAEAE G CR APRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL GATSSACL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_011713326.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Macaca nemestrina] &gt;ref|XP_011713327.1| neurogenin-3 [Macaca nemestrina]</Hit_def>
+  <Hit_accession>XP_011713326</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>3.06629e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSGASTVQVTGETERSFPRALDDEVTCPTSAPPSPTRTRGSCAEAEGGGCRGAPRKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPAPHCGELGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLRGATSSACLRPSTLALSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PSGA TVQVT ETERSFPRA +DEVTCPTSAPPSPTRTRG+CAEAE GGCRGAPRKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PAPHCGELGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL GATSSACL P +LA SDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_012306864.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_012306864</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>1.6454e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSGSPTVQVTGEMERPFPKALDDEVTCATSAPPSPTLTRGNCAEAEGGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPASHCGDLGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGVRGATSSGCLRPGTMAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PSG+PTVQVT E ER FP+A +DEVTC TSAPPSPT TRGNCAEAE GGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PA HCG+LGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPG+ GATSS CL PG++AFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_009008057.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_009008057</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>9.21354e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSGSPTVQVTGETERPFPKALDNEVTCATSAPPSPTLTRGNCVEAEGGGCRGAPRKLRARRGGRSRPKSEVALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPASHCGDLGSPEGSSPGDWGSLYSPVSQAGSLSPAASLEEGPGVRGATSSGCLRPGTMAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PSG+PTVQVT ETER FP+A ++EVTC TSAPPSPT TRGNC EAE GGCRGAPRKLRARRGGRSRPKSE+ALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PA HCG+LGSP G SPGDWGSLYSPVSQAGSLSPAASLEE PG+ GATSS CL PG++AFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_017404406.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Cebus imitator]</Hit_def>
+  <Hit_accession>XP_017404406</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.711</Hsp_bit-score>
+      <Hsp_score>966</Hsp_score>
+      <Hsp_evalue>1.35244e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSGSPTVQVTGETERPFPKALDDEVTCATSAPPSPTLKRGNCAEAEGGGCRVASRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPASHCGDLGSPEGGSPGDWGSLYSPVSQAGSLSPAASLEERPGVQGATSSGCLLPGTVGFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PSG+PTVQVT ETER FP+A +DEVTC TSAPPSPT  RGNCAEAE GGCR A RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PA HCG+LGSP GGSPGDWGSLYSPVSQAGSLSPAASLEERPG+ GATSS CL PG++ FSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_032112081.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Sapajus apella]</Hit_def>
+  <Hit_accession>XP_032112081</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.711</Hsp_bit-score>
+      <Hsp_score>966</Hsp_score>
+      <Hsp_evalue>1.35244e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSGSPTVQVTGETERPFPKALDDEVTCATSAPPSPTLKRGNCAEAEGGGCRGASRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPASHCGDLGSPEGGSPGDWVSLYSPVSQAGSLSPAASLEERPGVQGATSSGCLLPGTVGFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PSG+PTVQVT ETER FP+A +DEVTC TSAPPSPT  RGNCAEAE GGCRGA RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PA HCG+LGSP GGSPGDW SLYSPVSQAGSLSPAASLEERPG+ GATSS CL PG++ FSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_003928697.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_003928697</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.629</Hsp_bit-score>
+      <Hsp_score>958</Hsp_score>
+      <Hsp_evalue>2.75935e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSGSPTVQVTGETELPFPKALDDEVTCATSAPPSPTLTRGNCAEAEGGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYALESPASHCGDLGSPEGGSPGDWGSLYSPVSQAGSLSPVASLEESPGVRVATSSGYLRPGTMAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PSG+PTVQVT ETE  FP+A +DEVTC TSAPPSPT TRGNCAEAE GGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS YALE PA HCG+LGSP GGSPGDWGSLYSPVSQAGSLSP ASLEE PG+  ATSS  L PG++AFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|ALY06277.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Sus scrofa]</Hit_def>
+  <Hit_accession>ALY06277</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.303</Hsp_bit-score>
+      <Hsp_score>926</Hsp_score>
+      <Hsp_evalue>1.91734e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSCAPAVQVTHQTEQSFPSAPEDKVTCVASAPPSPTRVPGNSAEAEGGGCRAASRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPLAPTCEELGSPDGSPGDWGSLYSPVSQAGSLSPVASLEERPGLQAPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PS AP VQVT +TE+SFP A ED+VTC  SAPPSPTR  GN AEAE GGCR A RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEP AP C ELGSP GSPGDWGSLYSPVSQAGSLSP ASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_007167824.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Balaenoptera acutorostrata scammoni] &gt;ref|XP_036685505.1| neurogenin-3 [Balaenoptera musculus] &gt;gb|MBV96420.1| Neurogenin-3 [Eschrichtius robustus]</Hit_def>
+  <Hit_accession>XP_007167824</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.918</Hsp_bit-score>
+      <Hsp_score>925</Hsp_score>
+      <Hsp_evalue>2.24098e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSCAPAVQVTHETEQPFPGASDDEVTCVASAPPSPTRLQGNCAETEGGGCRGSSRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLESLAPPCEELASPDGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLQAPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PS AP VQVT ETE+ FP AS+DEVTC  SAPPSPTR +GNCAE E GGCRG+ RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LE  AP C EL SP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_020928083.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Sus scrofa]</Hit_def>
+  <Hit_accession>XP_020928083</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>1.73692e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSCAPAVQVTHQTEQPFPSAPEDKVTCVASAPPSPTRVPGNSAEAEGGGCRAASRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPLAPTCEELGSPDGSPGDWGSLYSPVSQAGSLSPVASLEERPGLQAPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PS AP VQVT +TE+ FP A ED+VTC  SAPPSPTR  GN AEAE GGCR A RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEP AP C ELGSP GSPGDWGSLYSPVSQAGSLSP ASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_007124138.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Physeter catodon]</Hit_def>
+  <Hit_accession>XP_007124138</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>1.85957e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSCAPAVQVTHETEQPFPGASDDEVTCVASAPPSPTRLQGSCAETEGGGCRGSSRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLESLAPPCEELASPDGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLQAPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PS AP VQVT ETE+ FP AS+DEVTC  SAPPSPTR +G+CAE E GGCRG+ RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LE  AP C EL SP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_024621339.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Neophocaena asiaeorientalis asiaeorientalis]</Hit_def>
+  <Hit_accession>XP_024621339</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.836</Hsp_bit-score>
+      <Hsp_score>917</Hsp_score>
+      <Hsp_evalue>4.32554e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGG-SPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHSSCAPAVQVTHETEQPFPGTSDDEVTCVASAPPSPTRLQGNCAETEGGGCRGSSRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLESLAPHCEELASPDGCSPGDWGSLYSPVSQAGSLSPAASLEERPGLQVPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP  S AP VQVT ETE+ FP  S+DEVTC  SAPPSPTR +GNCAE E GGCRG+ RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LE  APHC EL SP G SPGDWGSLYSPVSQAGSLSPAASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_008071291.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_008071291</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.681</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>1.30899e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSRAPAVQVSRETQLPFSRASDDEVTCATSAPPSPTRPPGNRAEAEGRGCRGAPNKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFCELETPAPPCGELGSPDGGSSGDWGSLYSPVSQAGSLSPAASLEERPGLQAATSPACLRPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PS AP VQV+RET+  F RAS+DEVTC TSAPPSPTR  GN AEAE  GCRGAP KLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHS   LE PAP CGELGSP GGS GDWGSLYSPVSQAGSLSPAASLEERPGL  ATS ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_007454629.1|</Hit_id>
+  <Hit_def>PREDICTED: neurogenin-3 [Lipotes vexillifer]</Hit_def>
+  <Hit_accession>XP_007454629</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.91</Hsp_bit-score>
+      <Hsp_score>912</Hsp_score>
+      <Hsp_evalue>2.34601e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSAC-LSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSCAPAVQVTHETEQPFLGASDDEVTCVASAPPSPTRLQGNCAETEGSGCRGSSRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLESLAPHCEELASPDGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLQAPASPACLLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PS AP VQVT ETE+ F  AS+DEVTC  SAPPSPTR +GNCAE E  GCRG+ RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LE  APHC EL SP GGSPGDWGSLYSPVSQAGSLSPAASLEERPGL    S AC L PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_022446472.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Delphinapterus leucas]</Hit_def>
+  <Hit_accession>XP_022446472</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>6.00822e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGG-SPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSCAPAVQVTHETEQPFPGTSDDEVTCVASAPPSPTRLQGNCAETEGGGCRGSSRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLESLAPPCEELASPDGCSPGDWASLYSPVSQAGSLSPAASLEERPGLQAPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PS AP VQVT ETE+ FP  S+DEVTC  SAPPSPTR +GNCAE E GGCRG+ RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LE  AP C EL SP G SPGDW SLYSPVSQAGSLSPAASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_047618354.1|</Hit_id>
+  <Hit_def>neurogenin-3-like [Phacochoerus africanus]</Hit_def>
+  <Hit_accession>XP_047618354</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>6.92853e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPG-GSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSCAPAVQVTHQTEQPFPSAPEDKVTCVASAPPSPTRVPGNSAEAEGGGCRAASRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPLAPTCEELGSPDVGSPGDWGSLYSPVSQAGSLSPVASLEERPGLQAPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PS AP VQVT +TE+ FP A ED+VTC  SAPPSPTR  GN AEAE GGCR A RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEP AP C ELGSP  GSPGDWGSLYSPVSQAGSLSP ASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_020733053.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Odocoileus virginianus texanus] &gt;ref|XP_043332764.1| neurogenin-3 [Cervus canadensis] &gt;gb|KAF4018878.1| hypothetical protein G4228_010596 [Cervus hanglu yarkandensis]</Hit_def>
+  <Hit_accession>XP_020733053</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.369</Hsp_bit-score>
+      <Hsp_score>908</Hsp_score>
+      <Hsp_evalue>9.84006e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSCAPPVQVTHETEQRFPGASDDEVTCVASTPPSPTRVLENCAETEGGACRGASRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPLAPPCEELASPDGGSPGDWGSLYSPVSQAGSLSPAASLEDRPGLQAPVSPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PS AP VQVT ETE+ FP AS+DEVTC  S PPSPTR   NCAE E G CRGA RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEP AP C EL SP GGSPGDWGSLYSPVSQAGSLSPAASLE+RPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|KAB0350326.1|</Hit_id>
+  <Hit_def>hypothetical protein FD754_015183 [Muntiacus muntjak]</Hit_def>
+  <Hit_accession>KAB0350326</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.369</Hsp_bit-score>
+      <Hsp_score>908</Hsp_score>
+      <Hsp_evalue>1.19867e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSCAPPVQVTHETEQRFPGASDDEVTCVASTPPSPTRVLENCAETEGGACRGASRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPLAPPCEELASPDGGSPGDWGSLYSPVSQAGSLSPAASLEDRPGLQAPVSPACLYPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PS AP VQVT ETE+ FP AS+DEVTC  S PPSPTR   NCAE E G CRGA RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEP AP C EL SP GGSPGDWGSLYSPVSQAGSLSPAASLE+RPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|KAB0383045.1|</Hit_id>
+  <Hit_def>hypothetical protein FD755_004962 [Muntiacus reevesi]</Hit_def>
+  <Hit_accession>KAB0383045</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.214</Hsp_bit-score>
+      <Hsp_score>905</Hsp_score>
+      <Hsp_evalue>2.61057e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSCAPPVQVTHETEQRFPGASDDEVTCVASTPPSPTRVLENCAETEGGACRGASRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPLAPPCEELANPDGGSPGDWGSLYSPVSQAGSLSPAASLEDRPGLQAPVSPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PS AP VQVT ETE+ FP AS+DEVTC  S PPSPTR   NCAE E G CRGA RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEP AP C EL +P GGSPGDWGSLYSPVSQAGSLSPAASLE+RPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_032464992.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Phocoena sinus]</Hit_def>
+  <Hit_accession>XP_032464992</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.214</Hsp_bit-score>
+      <Hsp_score>905</Hsp_score>
+      <Hsp_evalue>2.97761e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGG-SPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHSSCAPAVQVTHETEQPFPGTSDDEVTCVASAPPSPTRLQGNCAETEGGGCRGSSRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLESLAPPCEELASPDGCSPGDWGSLYSPVSQAGSLSPAASLEERPGLQVPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP  S AP VQVT ETE+ FP  S+DEVTC  SAPPSPTR +GNCAE E GGCRG+ RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LE  AP C EL SP G SPGDWGSLYSPVSQAGSLSPAASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_011370461.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Pteropus vampyrus]</Hit_def>
+  <Hit_accession>XP_011370461</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>4.00327e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPLGAPAVQVTHETEQPFPGVSNEEVTCVASALPSPTRVPGDCAEAEGGGCRGAARKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPPALPCEELGSPDGGSRGDWGSVYSPVSQAGSLSPAASLEERPGLQAPASPACLRPGTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P P GAP VQVT ETE+ FP  S +EVTC  SA PSPTR  G+CAEAE GGCRGA RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEPPA  C ELGSP GGS GDWGS+YSPVSQAGSLSPAASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_006195745.2|</Hit_id>
+  <Hit_def>neurogenin-3 [Camelus ferus] &gt;ref|XP_010949965.1| neurogenin-3 [Camelus bactrianus] &gt;ref|XP_010991089.1| neurogenin-3 [Camelus dromedarius] &gt;gb|KAB1271231.1| Neurogenin-3 [Camelus dromedarius]</Hit_def>
+  <Hit_accession>XP_006195745</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>5.09516e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSP-GDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSGAPAVQVTHETKQTFQGASDDKVTCVASAPPSPSRVLGNCAEAEAGGCRGASRKLRARRGGRSRPKSELALSKQRRNRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPLVPPCEELGSPDGSSLGDWGSLYSPVSQAGSLSPAASLEEGPGLQAPASPVCLRPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PSGAP VQVT ET+++F  AS+D+VTC  SAPPSP+R  GNCAEAE GGCRGA RKLRARRGGRSRPKSELALSKQRR+RRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEP  P C ELGSP GS  GDWGSLYSPVSQAGSLSPAASLEE PGL    S  CL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_039728377.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Pteropus giganteus]</Hit_def>
+  <Hit_accession>XP_039728377</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>6.70166e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPLGAPAVQVTHETEQPFPGVSNEEVTCFASALPSPTRVPGDCAEAEGGGCRGAARKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPPALPCEELGSPDGGSRGDWGSVYSPVSQAGSLSPAASLEERPGLQAPASPACLRPGTLAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P P GAP VQVT ETE+ FP  S +EVTC  SA PSPTR  G+CAEAE GGCRGA RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEPPA  C ELGSP GGS GDWGS+YSPVSQAGSLSPAASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_043782593.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Cervus elaphus]</Hit_def>
+  <Hit_accession>XP_043782593</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.058</Hsp_bit-score>
+      <Hsp_score>902</Hsp_score>
+      <Hsp_evalue>9.31132e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSCAPPVQVTHEMEQRFPGASDDEVTCVASTPPSPTRLLENCAETEGGACRGASRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPLAPPCEELASPDGGSPGDWGSLYSPVSQAGSLSPAASLEDRPGLQAPVSPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PS AP VQVT E E+ FP AS+DEVTC  S PPSPTR   NCAE E G CRGA RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEP AP C EL SP GGSPGDWGSLYSPVSQAGSLSPAASLE+RPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_029057060.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Monodon monoceros]</Hit_def>
+  <Hit_accession>XP_029057060</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.673</Hsp_bit-score>
+      <Hsp_score>901</Hsp_score>
+      <Hsp_evalue>1.13425e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGG-SPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSCAPAVQVTHETEQPFPGTSDDEVTCVASAPPSPTRLQGNCAETEGGGCRRSSRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLESLAPPCEELAGPDGCSPGDWGSLYSPVSQAGSLSPAASLEERPGLQAPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PS AP VQVT ETE+ FP  S+DEVTC  SAPPSPTR +GNCAE E GGCR + RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LE  AP C EL  P G SPGDWGSLYSPVSQAGSLSPAASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_004680874.1|</Hit_id>
+  <Hit_def>PREDICTED: neurogenin-3 [Condylura cristata]</Hit_def>
+  <Hit_accession>XP_004680874</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.903</Hsp_bit-score>
+      <Hsp_score>899</Hsp_score>
+      <Hsp_evalue>2.18959e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSGVPAIEVTHETEQSFPGVSDDEVTCVASAPPSPTLLPGNSAEAEEGGCRSGARKLRARRAGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPPAPSCEELCSPDGGSPGDWGSLYSPGSQAGSLSPAASLEERPGLQAPASPTCLHPSALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PSG P ++VT ETE+SFP  S+DEVTC  SAPPSPT   GN AEAEEGGCR   RKLRARR GRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEPPAP C EL SP GGSPGDWGSLYSP SQAGSLSPAASLEERPGL    S  CL P +LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|TKC51614.1|</Hit_id>
+  <Hit_def>hypothetical protein EI555_008930 [Monodon monoceros]</Hit_def>
+  <Hit_accession>TKC51614</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>5.80868e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGG-SPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MTPHPSCAPAVQVTHETEQPFPGTSDDEVTCVASAPPSPTRLQGNCAETEGGGCRRSSRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALEALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLESLAPPCEELAGPDGCSPGDWGSLYSPVSQAGSLSPAASLEERPGLQAPASPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>MTP PS AP VQVT ETE+ FP  S+DEVTC  SAPPSPTR +GNCAE E GGCR + RKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSAL+ALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LE  AP C EL  P G SPGDWGSLYSPVSQAGSLSPAASLEERPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_052497482.1|</Hit_id>
+  <Hit_def>neurogenin-3 [Budorcas taxicolor]</Hit_def>
+  <Hit_accession>XP_052497482</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>7.47439e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSP-GGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATSSACLSPGSLAFSDFL</Hsp_qseq>
+      <Hsp_hseq>MAPHPSCAPPVQVTHETEQRFPGASDDEVTCVASTPPSPTRVLENCTETEGGACRGASRKLRARRGGRSRPKCELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYGLEPLAPPCEELASPDGGSPGDWGSLYSPVSQAGSLSPTASLEDRPGLQAPVSPACLHPGALAFSDFL</Hsp_hseq>
+      <Hsp_midline>M P PS AP VQVT ETE+ FP AS+DEVTC  S PPSPTR   NC E E G CRGA RKLRARRGGRSRPK ELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLY LEP AP C EL SP GGSPGDWGSLYSPVSQAGSLSP ASLE+RPGL    S ACL PG+LAFSDFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>523925081</Statistics_db-num>
+      <Statistics_db-len>205869503350</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
