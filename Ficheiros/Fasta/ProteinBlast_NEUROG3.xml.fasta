@@ -1,150 +1,150 @@
 
->sp|Q9Y4Z2.2| RecName: Full=Neurogenin-3; Short=NGN-3; AltName: Full=Class A basic helix-loop-helix protein 7; Short=bHLHa7; AltName: Full=Protein atonal homolog 5 [Homo sapiens]
+>Q9Y4Z2.2--Homo-sapiens
 MTPQPSGAPTVQVTRETERSFPRASEDEVTCPTSAPPSPTRTRGNCAEAEEGGCRGAPRKLRARRGGRSRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSLYALEPPAPHCGELGSPGGSPGDWGSLYSPVSQAGSLSPAASLEERPGLLGATFSACLSPGSLAFSDFL
 
->sp|P70661.1| RecName: Full=Neurogenin-3; Short=NGN-3; AltName: Full=Helix-loop-helix protein mATH-4B; Short=mATH4B; AltName: Full=Protein atonal homolog 5 [Mus musculus]
+>P70661.1--Mus-musculus
 MAPHPLDALTIQVSPETQQPFPGASDHEVLSSNSTPPSPTLIPRDCSEAEVGDCRGTSRKLRARRGGRNRPKSELALSKQRRSRRKKANDRERNRMHNLNSALDALRGVLPTFPDDAKLTKIETLRFAHNYIWALTQTLRIADHSFYGPEPPVP-CGELGSPGGGSNGDWGSIYSPVSQAGNLSPTASLEEFPGLQVPSSPSYLLPGALVFSDFL
 
->sp|O42606.1| RecName: Full=Neurogenin-1; Short=NGN-1; AltName: Full=Neurogenic differentiation factor 3; Short=NeuroD3; AltName: Full=Neurogenin-related protein 1 [Danio rerio]
+>O42606.1--Danio-rerio
 ASPAGLQQKKRRRGRARNETTVHVVKKNRRLKANDRERNRMHNLNDALDALRSVLPAFPDDTKLTKIETLRFAHNYIWALSETIRIADQ
 
->sp|Q92886.2| RecName: Full=Neurogenin-1; Short=NGN-1; AltName: Full=Class A basic helix-loop-helix protein 6; Short=bHLHa6; AltName: Full=Neurogenic basic-helix-loop-helix protein; AltName: Full=Neurogenic differentiation factor 3; Short=NeuroD3 [Homo sapiens]
+>Q92886.2--Homo-sapiens
 SEALLHSLRRSRRVKANDRERNRMHNLNAALDALRSVLPSFPDDTKLTKIETLRFAYNYIWALAETLRLADQGLPGGGARERLLPPQCVPCLPGPPSPASDAESWGSGAAAASPLSDPSSPAASEDFTYRPG
 
->sp|P70447.1| RecName: Full=Neurogenin-2; Short=NGN-2; AltName: Full=Helix-loop-helix protein mATH-4A; Short=mATH4A; AltName: Full=Protein atonal homolog 4 [Mus musculus]
+>P70447.1--Mus-musculus
 GGCR--PGRLLGLMHECKRRPSRSRAVSRGAKTAETVQRIKKTRRLKANNRERNRMHNLNAALDALREVLPTFPEDAKLTKIETLRFAHNYIWALTETLRLADHC-----------------AGAGGLQGALF---TEAVLLSPGAAL
 
->sp|P70660.1| RecName: Full=Neurogenin-1; Short=NGN-1; AltName: Full=Helix-loop-helix protein mATH-4C; Short=mATH4C; AltName: Full=Neurogenic basic-helix-loop-helix protein; AltName: Full=Neurogenic differentiation factor 3; Short=NeuroD3 [Mus musculus]
+>P70660.1--Mus-musculus
 SEALLHSLRRSRRVKANDRERNRMHNLNAALDALRSVLPSFPDDTKLTKIETLRFAYNYIWALAETLRLADQGL
 
->sp|Q9H2A3.2| RecName: Full=Neurogenin-2; Short=NGN-2; AltName: Full=Class A basic helix-loop-helix protein 8; Short=bHLHa8; AltName: Full=Protein atonal homolog 4 [Homo sapiens]
+>Q9H2A3.2--Homo-sapiens
 CKRRPSRARAVSRG---AKTAETVQRIKKTRRLKANNRERNRMHNLNAALDALREVLPTFPEDAKLTKIETLRFAHNYIWALTETLRLADH
 
->sp|P70595.1| RecName: Full=Neurogenin-1; Short=NGN-1; AltName: Full=Neurogenic basic-helix-loop-helix protein; AltName: Full=Neurogenic differentiation factor 3; Short=NeuroD3 [Rattus norvegicus]
+>P70595.1--Rattus-norvegicus
 SEALLHSLRRSRRVKANDRERNRMHNLNAALDALRSVLPSFPDDTKLTKIETLRFAYNYIWALAETLRLADQGL
 
->sp|O16867.2| RecName: Full=Basic helix-loop-helix neural transcription factor TAP; AltName: Full=Protein biparous; AltName: Full=Target of Poxn protein [Drosophila melanogaster]
+>O16867.2--Drosophila-melanogaster
 NAPRPKRKYAVGKNRVTRSRSPTQVVKIKRFRRMKANDRERNRMHNLNDALEKLRVTLPSLPEETKLTKIEILRFAHNYIFALEQVL
 
->sp|Q08DI0.1| RecName: Full=Neurogenic differentiation factor 6; Short=NeuroD6 [Bos taurus]
+>Q08DI0.1--Bos-taurus
 GLPR----RRGLRKKKTTKLRLERVK-FRRQEANARERNRMHGLNDALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILRI
 
->sp|P48986.1| RecName: Full=Neurogenic differentiation factor 6; Short=NeuroD6; AltName: Full=Helix-loop-helix protein mATH-2; Short=mATH2; AltName: Full=Protein NEX-1; AltName: Full=Protein atonal homolog 2 [Mus musculus]
+>P48986.1--Mus-musculus
 LSRRRGLRKKKTTKLRLERVK-FRRQEANARERNRMHGLNDALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILRI
 
->sp|Q4R5G6.1| RecName: Full=Neurogenic differentiation factor 6; Short=NeuroD6 [Macaca fascicularis] >sp|Q96NK8.1| RecName: Full=Neurogenic differentiation factor 6; Short=NeuroD6; AltName: Full=Class A basic helix-loop-helix protein 2; Short=bHLHa2; AltName: Full=Protein atonal homolog 2 [Homo sapiens]
+>Q4R5G6.1--Macaca-fascicularis
 GLPR----RRGLRKKKTTKLRLERVK-FRRQEANARERNRMHGLNDALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILRI
 
->sp|Q15784.2| RecName: Full=Neurogenic differentiation factor 2; Short=NeuroD2; AltName: Full=Class A basic helix-loop-helix protein 1; Short=bHLHa1; AltName: Full=NeuroD-related factor; Short=NDRF [Homo sapiens]
+>Q15784.2--Homo-sapiens
 RRQKANARERNRMHDLNAALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q62414.3| RecName: Full=Neurogenic differentiation factor 2; Short=NeuroD2; AltName: Full=NeuroD-related factor; Short=NDRF [Mus musculus]
+>Q62414.3--Mus-musculus
 RRQKANARERNRMHDLNAALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q63689.2| RecName: Full=Neurogenic differentiation factor 2; Short=NeuroD2; AltName: Full=Brain bHLH protein KW8 [Rattus norvegicus]
+>Q63689.2--Rattus-norvegicus
 RRQKANARERNRMHDLNAALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q91616.1| RecName: Full=Neurogenic differentiation factor 1; Short=NeuroD1 [Xenopus laevis]
+>Q91616.1--Xenopus-laevis
 KVRRMKANARERNRMHGLNDALDSLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q6NYU3.1| RecName: Full=Neurogenic differentiation factor 6-A; Short=NeuroD6-A; AltName: Full=Protein atonal homolog 2-A [Danio rerio]
+>Q6NYU3.1--Danio-rerio
 GLPR----RRGPRKK-KMTKARVDRVKVRRMEANARERNRMHGLNNALDSLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEIL
 
->sp|P79765.1| RecName: Full=Neurogenic differentiation factor 1; Short=NeuroD; Short=NeuroD1 [Gallus gallus]
+>P79765.1--Gallus-gallus
 KLRRMKANARERNRMHGLNAALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q64289.1| RecName: Full=Neurogenic differentiation factor 1; Short=NeuroD1; AltName: Full=Basic helix-loop-helix factor 1; Short=BHF-1 [Rattus norvegicus]
+>Q64289.1--Rattus-norvegicus
 RRMKANARERNRMHGLNAALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q60430.2| RecName: Full=Neurogenic differentiation factor 1; Short=NeuroD1; AltName: Full=Beta-cell E-box transcriptional activator 2; Short=Beta2 [Mesocricetus auratus]
+>Q60430.2--Mesocricetus-auratus
 RRMKANARERNRMHGLNAALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q60867.2| RecName: Full=Neurogenic differentiation factor 1; Short=NeuroD1; AltName: Full=Beta-cell E-box transcriptional activator 2; Short=Beta2 [Mus musculus]
+>Q60867.2--Mus-musculus
 RRMKANARERNRMHGLNAALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q13562.3| RecName: Full=Neurogenic differentiation factor 1; Short=NeuroD; Short=NeuroD1; AltName: Full=Class A basic helix-loop-helix protein 3; Short=bHLHa3 [Homo sapiens]
+>Q13562.3--Homo-sapiens
 RRMKANARERNRMHGLNAALDNLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|O42202.1| RecName: Full=Neurogenic differentiation factor 1; Short=NeuroD; Short=NeuroD1 [Danio rerio]
+>O42202.1--Danio-rerio
 KMRRMKANARERNRMHGLNDALESLRKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q9W6C8.1| RecName: Full=Neurogenic differentiation factor 2; Short=NeuroD2 [Danio rerio]
+>Q9W6C8.1--Danio-rerio
 KVRRQKANARERTRMHDLNSALDNLLKVVPCYSKTQKLSKIETLRLAKNYIWALSEILR
 
->sp|Q9HD90.2| RecName: Full=Neurogenic differentiation factor 4; Short=NeuroD4; AltName: Full=Class A basic helix-loop-helix protein 4; Short=bHLHa4; AltName: Full=Protein atonal homolog 3; Short=ATH-3; Short=Atoh3 [Homo sapiens]
+>Q9HD90.2--Homo-sapiens
 RARRVKANARERTRMHGLNDALDNLRRVMPCYSKTQKLSKIETLRLARNYIWALSEVL
 
->sp|O09105.1| RecName: Full=Neurogenic differentiation factor 4; Short=NeuroD4; AltName: Full=Helix-loop-helix protein mATH-3; Short=mATH3; AltName: Full=Protein atonal homolog 3 [Mus musculus]
+>O09105.1--Mus-musculus
 RARRVKANARERTRMHGLNDALDNLRRVMPCYSKTQKLSKIETLRLARNYIWALSEVL
 
->sp|Q95XG7.1| RecName: Full=Helix-loop-helix protein ngn-1 [Caenorhabditis elegans]
+>Q95XG7.1--Caenorhabditis-elegans
 REKRRYRCRKRSPATIERAKTVRRDKANARERRRMNSLNDALEHLRGILPALPDEPKMTKIETLRKAQEYIASLSFQLSGGS-------PDSSQCCETGSCG
 
->sp|P79766.1| RecName: Full=Neurogenic differentiation factor 4; Short=NeuroD4; AltName: Full=NeuroM [Gallus gallus]
+>P79766.1--Gallus-gallus
 RARRVKANARERTRMHGLNDALDNLRRVMPCYSKTQKLSKIETLRLARNYIWALSEVL
 
->sp|Q9W6C7.3| RecName: Full=Neurogenic differentiation factor 6-B; Short=NeuroD6-B; AltName: Full=Protein atonal homolog 2-B [Danio rerio]
+>Q9W6C7.3--Danio-rerio
 KMRRQEANARERSRMHGLNDALESLRKVVPCYSKTQKLSKIETLRLAKNYIWALSETL
 
->sp|P70562.1| RecName: Full=Class A basic helix-loop-helix protein 15; Short=bHLHa15; AltName: Full=Class B basic helix-loop-helix protein 8; Short=bHLHb8; AltName: Full=Muscle, intestine and stomach expression 1; Short=MIST-1 [Rattus norvegicus]
+>P70562.1--Rattus-norvegicus
 RRLESNERERQRMHKLNNAFQALREVIPHVRADKKLSKIETLTLAKNYIKSLTATILTMSSSRLPGLEAPGPAPG
 
->sp|Q9QYC3.1| RecName: Full=Class A basic helix-loop-helix protein 15; Short=bHLHa15; AltName: Full=Class B basic helix-loop-helix protein 8; Short=bHLHb8; AltName: Full=Muscle, intestine and stomach expression 1; Short=MIST-1 [Mus musculus]
+>Q9QYC3.1--Mus-musculus
 RRLESNERERQRMHKLNNAFQALREVIPHVRADKKLSKIETLTLAKNYIKSLTATILTMSSSRLPGLEAPGPAPG
 
->sp|Q7RTS1.1| RecName: Full=Class A basic helix-loop-helix protein 15; Short=bHLHa15; AltName: Full=Class B basic helix-loop-helix protein 8; Short=bHLHb8; AltName: Full=Muscle, intestine and stomach expression 1; Short=MIST-1 [Homo sapiens]
+>Q7RTS1.1--Homo-sapiens
 RRLESNERERQRMHKLNNAFQALREVIPHVRADKKLSKIETLTLAKNYIKSLTATILTMSSSRLPGLEGPGPKL
 
->sp|P79920.1| RecName: Full=Neurogenic differentiation factor 4; Short=NeuroD4; AltName: Full=Helix-loop-helix protein xATH-3; Short=xATH3; AltName: Full=Protein atonal homolog 3 [Xenopus laevis]
+>P79920.1--Xenopus-laevis
 KANARERSRMHGLNDALENLRRVMPCYSKTQKLSKIETLRLARNYIWALSDILE
 
->sp|Q6PFG8.1| RecName: Full=Oligodendrocyte transcription factor 3; Short=Oligo3; AltName: Full=Class B basic helix-loop-helix protein 7; Short=bHLHb7; AltName: Full=Oligodendrocyte-specific bHLH transcription factor 3 [Mus musculus]
+>Q6PFG8.1--Mus-musculus
 GESSKYKIKKQLSEQDLQQLRLKINGRERKRMHDLNLAMDGLREVMPYAHGPSVRKLSKIATLLLARNYILMLTSSLEEMKRLVG-EIYGGHHSAFHCGTVGHSAGHPAHAANAVHPV
 
->sp|P46581.1| RecName: Full=Neurogenic differentiation factor 1; AltName: Full=NeuroD [Caenorhabditis elegans]
+>P46581.1--Caenorhabditis-elegans
 KRKVRRVKANGRERARMHGLNNALDMLREYIPITTQHQKLSKIETLRLARNYIDALQRMLQ
 
->sp|Q7RTU3.2| RecName: Full=Oligodendrocyte transcription factor 3; Short=Oligo3; AltName: Full=Class B basic helix-loop-helix protein 7; Short=bHLHb7; AltName: Full=Class E basic helix-loop-helix protein 20; Short=bHLHe20 [Homo sapiens]
+>Q7RTU3.2--Homo-sapiens
 GESSKYKIKKQLSEQDLQQLRLKINGRERKRMHDLNLAMDGLREVMPYAHGPSVRKLSKIATLLLARNYILMLTSSLEEMKRLVG-EIYGGHHSAFHCGTVGHSAGHPAHAANSVHPV
 
->sp|Q92858.1| RecName: Full=Transcription factor ATOH1; AltName: Full=Atonal bHLH transcription factor 1; AltName: Full=Class A basic helix-loop-helix protein 14; Short=bHLHa14; AltName: Full=Helix-loop-helix protein hATH-1; Short=hATH1; AltName: Full=Protein atonal homolog 1 [Homo sapiens]
+>Q92858.1--Homo-sapiens
 RQRAPSSKQVNGVQKQRRLAANARERRRMHGLNHAFDQLRNVIPSFNNDKKLSKYETLQMAQIYINALSELLQ
 
->sp|Q5IS79.1| RecName: Full=Transcription factor ATOH1; AltName: Full=Atonal bHLH transcription factor 1; AltName: Full=Protein atonal homolog 1 [Pan troglodytes]
+>Q5IS79.1--Pan-troglodytes
 RQRAPSSKQVNGVQKQRRLAANARERRRMHGLNHAFDQLRNVIPSFNNDKKLSKYETLQMAQIYINALSELLQ
 
->sp|P48985.1| RecName: Full=Transcription factor Atoh1; AltName: Full=Atonal bHLH transcription factor 1; AltName: Full=Helix-loop-helix protein mATH-1; Short=mATH1; AltName: Full=Protein atonal homolog 1 [Mus musculus]
+>P48985.1--Mus-musculus
 RQRAPSSKQVNGVQKQRRLAANARERRRMHGLNHAFDQLRNVIPSFNNDKKLSKYETLQMAQIYINALSELLQ
 
->sp|Q923Z4.1| RecName: Full=Fer3-like protein; AltName: Full=Basic helix-loop-helix protein N-twist; AltName: Full=Nephew of atonal 3; AltName: Full=Neuronal twist [Mus musculus]
+>Q923Z4.1--Mus-musculus
 GRGRVASLLGRPKRKRVITYAQRQAANIRERKRMFNLNEAFDQLRRKVPTFAYEKRLSRIETLRLAIVYISFMTELLQ
 
->sp|Q10574.2| RecName: Full=Protein lin-32; AltName: Full=Abnormal cell lineage protein 32 [Caenorhabditis elegans]
+>Q10574.2--Caenorhabditis-elegans
 RMRRSAANERERRRMNTLNVAYDELREVLPEIDSGKKLSKFETLQMAQKYIECLSQILK
 
->sp|B6VQA1.1| RecName: Full=Protein dimmed [Drosophila melanogaster]
+>B6VQA1.1--Drosophila-melanogaster
 AKERNMRRLESNERERMRMHSLNDAFQSLREVIPHVEMERRLSKIETLTLAKNYIINLTHII
 
->sp|Q60539.1| RecName: Full=Transcription factor 15; Short=TCF-15; AltName: Full=Meso1; AltName: Full=Paraxis; AltName: Full=Protein bHLH-EC2 [Mesocricetus auratus]
+>Q60539.1--Mesocricetus-auratus
 QRQAANARERDRTQSVNTAFTALRTLIPTEPVDRKLSKIETLRLASSYIAHLANVLMLGD
 
->sp|O13126.1| RecName: Full=Transcription factor Atoh7-b; AltName: Full=Atonal bHLH transcription factor 7-B; AltName: Full=Helix-loop-helix protein xATH-5-B; AltName: Full=Protein atonal homolog 5-B; Short=xAth5-B; AltName: Full=Protein atonal homolog 7-B [Xenopus laevis]
+>O13126.1--Xenopus-laevis
 RRLAANARERRRMQGLNTAFDSLRKVVPQWGEDKKLSKYETLQMALSYIMALSRILTEAE
 
->sp|Q60756.2| RecName: Full=Transcription factor 15; Short=TCF-15; AltName: Full=Meso1; AltName: Full=Paraxis; AltName: Full=Protein bHLH-EC2 [Mus musculus]
+>Q60756.2--Mus-musculus
 QRQAANARERDRTQSVNTAFTALRTLIPTEPVDRKLSKIETLRLASSYIAHLANVLLLGD
 
->sp|O57598.2| RecName: Full=Transcription factor ATOH7; AltName: Full=Atonal bHLH transcription factor 7; AltName: Full=Helix-loop-helix protein cATH-5; Short=cATH5; AltName: Full=Protein atonal homolog 5; AltName: Full=Protein atonal homolog 7 [Gallus gallus]
+>O57598.2--Gallus-gallus
 RRLAANARERRRMQGLNTAFDRLRKVVPQWGQDKKLSKYETLQMALSYIMALTRILAEAERYSTEREWINLHCEHF
 
->sp|Q96RJ6.1| RecName: Full=Fer3-like protein; AltName: Full=Basic helix-loop-helix protein N-twist; AltName: Full=Class A basic helix-loop-helix protein 31; Short=bHLHa31; AltName: Full=Nephew of atonal 3; AltName: Full=Neuronal twist [Homo sapiens]
+>Q96RJ6.1--Homo-sapiens
 RPKRKRVITY---AQRQAANIRERKRMFNLNEAFDQLRRKVPTFAYEKRLSRIETLRLAIVYISFMTELL
 
->sp|O13125.1| RecName: Full=Transcription factor Atoh7-a; AltName: Full=Atonal bHLH transcription factor 7-A; AltName: Full=Helix-loop-helix protein xATH-5-A; AltName: Full=Protein atonal homolog 5-A; Short=xAth5-A; AltName: Full=Protein atonal homolog 7-A [Xenopus laevis]
+>O13125.1--Xenopus-laevis
 RRLAANARERRRMQGLNTAFDSLRKVVPQWGEDKQLSKYETLQMALSYIMALSRILSEAE
 
->sp|Q12870.3| RecName: Full=Transcription factor 15; Short=TCF-15; AltName: Full=Class A basic helix-loop-helix protein 40; Short=bHLHa40; AltName: Full=Paraxis; AltName: Full=Protein bHLH-EC2 [Homo sapiens]
+>Q12870.3--Homo-sapiens
 QRQAANARERDRTQSVNTAFTALRTLIPTEPVDRKLSKIETVRLASSYIAHLANVLLLGD
 
->sp|P79782.2| RecName: Full=Transcription factor 15; Short=TCF-15; AltName: Full=Paraxis; AltName: Full=Protein bHLH-EC2 [Gallus gallus]
+>P79782.2--Gallus-gallus
 NRSESDTSDQSYGCCEGAEARRKV-----PRKTGPMVMVKQRQA----ANARERDRTQSVNTAFTALRTLIPTEPVDRKLSKIETLRLASSYIAHLANVLLLGE
